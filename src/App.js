@@ -1,5 +1,6 @@
 import React from 'react'
 import { Navbar} from './components'
+import {Footer} from './components'
 import Home from './pages/Home/Home'
 import AboutUs from './pages/Contact/AboutUs'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" exact component={Home} />
         <Route path="/AboutUs" excat component={AboutUs} />
       </Switch>
+      <Footer />
     </Router>
   );
 }
