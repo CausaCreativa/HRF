@@ -9,7 +9,7 @@ return (
     <ContainerAboutUs>
     <div class="panel about-us"></div>
     <div class="contact">
-        <h1 class="title">CONTACTO</h1>
+        <h1 class="title">Nosotros</h1>
         <div class="left">
             <div class="form">
                 <p class="full">Si  deseas contactarte con nosotros no dudes en escribirnos, estaros atentos siempre ante tus inquietudes.</p>

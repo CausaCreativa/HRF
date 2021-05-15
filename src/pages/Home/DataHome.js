@@ -37,7 +37,7 @@ align-items: center;
     background-size: cover;
 }
 .contactUs{
-    height: 400px;
+    padding:100px;
     display: flex;
     .right{
         display: flex;
