@@ -1,41 +1,12 @@
 import styled from 'styled-components'
-import logo from "../../utils/home.jpg";
+
 export  const ContainerHome  = styled.nav`
 background:#000;
 color:white;
 display: grid;
 flex-direction:row;
 align-items: center;
-.panel{
-    width: 100%;
-}
-.home{
-    .right{
-        display: flex;
-        justify-content: flex-end;
-        width: 75%;
-        align-items: flex-end;
-    }
-    .left{
-        width: 25%;
-    }
-    p{
-        font-size: 25px;
-    }
-    img{
-        width: 400px;
-    }
-    h1{
-        font-size: 59px;
-    }
-    height: 400px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-content: flex-end;
-    background: url(${logo})no-repeat;
-    background-size: cover;
-}
+
 .contactUs{
     padding:100px;
     display: flex;
@@ -62,12 +33,6 @@ align-items: center;
         flex-wrap: wrap;
         flex-direction: column-reverse;
         align-content: center;
-    }
-    .button{
-        border-radius: 10px;
-        background-color: #0088eb;
-        padding: 8px 25px;
-        color: #fff;
     }
 }
 /*customers*/

@@ -1,17 +1,11 @@
 import React from "react";
 import { ContainerHome } from "./DataHome";
+import { HomeSection } from "../../components";
 const Home = () => {
 return (
     <>
     <ContainerHome>
-        <div class="panel home">
-            <div class="left">
-                <h1>SOMOS HRF</h1>
-            </div>
-            <div class="right">
-                <p>Para HRF lo mas importante eres tu... </p>
-            </div>
-        </div>
+        <HomeSection></HomeSection>
         <div class="panel contactUs">
             <div class="left">
                 <div>
