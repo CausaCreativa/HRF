@@ -2,16 +2,16 @@ import React from 'react'
 import {HomeSectionElement} from './HomeSection.elements'
 
 
-const HomeSection = () => {
+const HomeSection = ({title,text}) => {
     return (
         <>
             <HomeSectionElement>
                 <div class="panel">
                     <div class="left">
-                        <h1>SOMOS HRF</h1>
+                        <h1>{title}</h1>
                     </div>
                     <div class="right">
-                        <p>Para HRF lo mas importante eres tu... </p>
+                        <p>{text} </p>
                     </div>
                 </div>
             </HomeSectionElement>

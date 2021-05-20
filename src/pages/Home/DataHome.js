@@ -7,3 +7,7 @@ display: grid;
 flex-direction:row;
 align-items: center;
 `;
+
+export const homeObjOne = {
+    title:"SOMOS HRF",text:"Para HRF lo mas importante eres tu... "
+    };
