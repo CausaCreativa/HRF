@@ -1,8 +1,8 @@
 import React from "react";
 import { LocationElements } from "./Location.element";
-import carta from "../../utils/image/carta.svg";
-import electronico from "../../utils/image/comercio-electronico.svg";
-import ubicacion from "../../utils/image/ubicacion.svg";
+import carta from "../../utils/images/carta.svg";
+import electronico from "../../utils/images/comercio-electronico.svg";
+import ubicacion from "../../utils/images/ubicacion.svg";
 
 const Location = () => {
   return (

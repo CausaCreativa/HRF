@@ -1,6 +1,6 @@
 import React from 'react'
 import {HomeSectionElement} from './HomeSection.elements'
-import logo from "../../utils/image/home.jpg";
+import logo from "../../utils/images/heroImage.jpg";
 
 const HomeSection = ({title,text}) => {
     return (

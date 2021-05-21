@@ -45,7 +45,6 @@ const Navbar = () => {
             <NavbarContainer>
                 <NavLogo to="/">
                     <NavIcon />
-                    HRF ASOCIADOS
                 </NavLogo>
                 <MobileIcon onClick= {handleClick}>
                     {click ? <FaTimes/> :
@@ -54,17 +53,22 @@ const Navbar = () => {
                 <NavMenu onClick = {handleClick} click={click}>
                         <NavItem>
                         <NavLinks to='/'>
-                            INICIO
+                            Inicio
                         </NavLinks>
                         </NavItem>
                         <NavItem>
-                        <NavLinks to='/nosotros'>
-                            NOSOTROS
+                        <NavLinks to='/aboutUs'>
+                            Nosotros
                         </NavLinks>
                         </NavItem>
                         <NavItem>
-                        <NavLinks to='/contactanos'>
-                            CONTACTANOS
+                        <NavLinks to='/services'>
+                            Servicios
+                        </NavLinks>
+                        </NavItem>
+                        <NavItem>
+                        <NavLinks to='/contact'>
+                            Contacto
                         </NavLinks>
                         </NavItem>
                 </NavMenu>

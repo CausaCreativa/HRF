@@ -1,11 +1,11 @@
 import styled from 'styled-components';
-import logo from "../../utils/image/home.jpg";
+import logo from "../../utils/images/Logo.svg";
 
 
 
 export const HomeSectionElement = styled.div`
 background: url(${logo})no-repeat;
-background-image:url(${require('../../utils/image/Svg_Home_1.svg').default});
+background-image:url(${require('../../utils/images/Svg_Home_1.svg').default});
 img{
     z-index: -999;
     width: 100%;

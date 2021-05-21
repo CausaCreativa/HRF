@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const CustomersHomeEleents = styled.div`
-background-image:url(${require('../../utils/image/Svg_Home_3.svg').default});
+background-image:url(${require('../../utils/images/Svg_Home_3.svg').default});
 background-size: cover;
 
 .customers{

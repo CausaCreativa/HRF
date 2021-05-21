@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const InfoHRFHomeElements = styled.div`
-background-image:url(${require('../../utils/image/Svg_Home_2.svg').default});
+background-image:url(${require('../../utils/images/Svg_Home_2.svg').default});
 background-size: cover;
 height: 700px;
 color: #000;
@@ -38,5 +38,5 @@ color: #000;
 }
 `
 export const background = {
-    Home2: require('../../utils/image/Svg_Home_2.svg').default,
+    Home2: require('../../utils/images/Svg_Home_2.svg').default,
 };

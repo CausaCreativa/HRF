@@ -22,7 +22,9 @@ position:absolute;
 export const NavbarContainer = styled(Container)`
 display:flex;
 justify-content:space-between;
-display:flex;
+align-items: center;
+border: 1px solid red;
+background: linear-gradient(90.09deg, rgba(0, 0, 0, 0) 14.68%, rgba(0, 0, 0, 0.3526) 29.44%, rgba(47, 56, 73, 0.82) 77.39%);
 @media screen and (max-width:415px){
 background:#101522;
 }
@@ -44,8 +46,8 @@ align-items:flex-start;
 export  const NavIcon=styled.div`
 display:flex;
 align-items:center;
-width:150px;
-height:150px;
+width:250px;
+height:250px;
 background-image:url(${logopage});
 background-size: contain;
 background-repeat:no-repeat;
@@ -73,8 +75,9 @@ cursor:pointer;
 
 export const NavMenu = styled.ul`
 display:flex;
-position:relative;
-top:0;
+width:100%;
+justify-content: flex-end;
+height: auto;
 align-items:center;
 list-style:none;
 text-align: center;
@@ -107,9 +110,10 @@ border-bottom: 2px solid transparent;
 `
 
 export const NavLinks =styled(Link)`
-font-size:28px;
-font-weight:400;
-color:#3F0808;
+font-family:"Roboto";
+font-size:25px;
+font-weight:700;
+color:#fff;
 display:flex;
 align-items:center;
 text-decoration: none;

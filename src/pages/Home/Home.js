@@ -1,11 +1,11 @@
 import React from "react";
-import { ContainerHome,homeObjOne } from "./DataHome";
-import { HomeSection,InfoHRFHome,CustomersHome} from "../../components";
+import { ContainerHome, heroHome} from "./DataHome";
+import { Hero ,InfoHRFHome,CustomersHome} from "../../components";
 const Home = () => {
 return (
     <>
     <ContainerHome>
-        <HomeSection {...homeObjOne}></HomeSection>
+        <Hero {...heroHome} />
         <InfoHRFHome></InfoHRFHome>
         <CustomersHome></CustomersHome>
     </ContainerHome>
