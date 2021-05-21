@@ -1,11 +1,15 @@
 import styled from 'styled-components'
 
-
 export const InfoHRFHomeElements = styled.div`
-background-image:url(${props => props.DataImage});
+background-image:url(${require('../../utils/image/Svg_Home_2.svg').default});
+background-size: cover;
+height: 700px;
+color: #000;
 .contactUs{
-    padding:100px;
     display: flex;
+    padding: 0px 100px;
+    height: 100%;
+    align-items: flex-end;
     .right{
         display: flex;
         flex-wrap: wrap;
@@ -33,5 +37,5 @@ background-image:url(${props => props.DataImage});
 }
 `
 export const background = {
-    Home2: require('../../utils/image/Svg Home 2.svg').default,
+    Home2: require('../../utils/image/Svg_Home_2.svg').default,
 };
