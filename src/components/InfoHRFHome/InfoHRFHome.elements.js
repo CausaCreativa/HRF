@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 
+
 export const InfoHRFHomeElements = styled.div`
+background-image:url(${props => props.DataImage});
 .contactUs{
     padding:100px;
     display: flex;
@@ -30,3 +32,6 @@ export const InfoHRFHomeElements = styled.div`
     }
 }
 `
+export const background = {
+    Home2: require('../../utils/image/Svg Home 2.svg').default,
+};
