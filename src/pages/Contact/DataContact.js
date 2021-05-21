@@ -1,7 +1,6 @@
 import styled from 'styled-components'
-import logo from "../../utils/home.jpg";
 export  const ContainerContact  = styled.nav`
-background:background: url(${logo});
+background:#000;
 color:white;
 display: grid;
 flex-direction:row;

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import logo from "../../utils/home.jpg";
+import logo from "../../utils/image/home.jpg";
 export const HomeSectionElement = styled.div`
 .panel{
     .right{
