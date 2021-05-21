@@ -1,35 +1,78 @@
-import React from "react";
-import { Nav } from "./Navbar.elements";
-import Logo from '../../utils/image/Logo.svg';
+import React, {useState, useEffect} from 'react';
+import {FaBars, FaTimes} from 'react-icons/fa';
+import {IconContext} from 'react-icons/lib';
+import { Button } from '../../globalStyles';
+import {Nav,
+        NavbarContainer,
+        NavLogo,
+        NavIcon,
+        MobileIcon,
+        NavMenu,
+        NavItem,
+        NavLinks,
+        NavBtnLink,
+
+        } from './Navbar.elements'
+
+
+
+
 
 const Navbar = () => {
-  return (
-    <>
-      <Nav>
-        <div class="wrapper">
-          <nav class="navbar">
-            <a href="#" class="logo">
-              <img src={Logo}></img>
-            </a>
-            <ul class="navbar__container">
-              <a href="/">
-                <li class="navbar-item">Inicio</li>
-              </a>
-              <a href="/aboutus">
-                <li class="navbar-item">Nosotros</li>
-              </a>
-              <a href="/service">
-                <li class="navbar-item">Servicios</li>
-              </a>
-              <a href="/contact">
-                <li class="navbar-item">Contacto</li>
-              </a>
-            </ul>
-          </nav>
-        </div>
-      </Nav>
-    </>
-  );
-};
+    const [click, setClick]= useState(false);
+    const [button, setButton] = useState(true);
 
-export default Navbar;
+
+    const handleClick= () => setClick(!click);
+    const showButton = () => {
+        if(window.innerWidth <= 960 ) {
+            setButton(false)
+        } else{
+            setButton(true)
+            }
+        }
+
+        useEffect (() =>{
+            showButton()
+        }, []);
+
+        window.addEventListener('resize', showButton);
+
+    return (
+        <>
+        <IconContext.Provider value={{color:'blue'}}>
+        <Nav>
+            <NavbarContainer>
+                <NavLogo to="/">
+                    <NavIcon />
+                    HRF ASOCIADOS
+                </NavLogo>
+                <MobileIcon onClick= {handleClick}>
+                    {click ? <FaTimes/> :
+                    <FaBars/>}
+                </MobileIcon>
+                <NavMenu onClick = {handleClick} click={click}>
+                        <NavItem>
+                        <NavLinks to='/'>
+                            INICIO
+                        </NavLinks>
+                        </NavItem>
+                        <NavItem>
+                        <NavLinks to='/nosotros'>
+                            NOSOTROS
+                        </NavLinks>
+                        </NavItem>
+                        <NavItem>
+                        <NavLinks to='/contactanos'>
+                            CONTACTANOS
+                        </NavLinks>
+                        </NavItem>
+                </NavMenu>
+            </NavbarContainer>
+        </Nav>
+        </IconContext.Provider>
+        </>
+    )
+}
+
+export default Navbar
