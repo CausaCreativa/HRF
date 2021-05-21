@@ -4,6 +4,7 @@ export  const Nav  = styled.nav`
 background-color: transparent;
 font-size:24px;
 font-weight:600;
+padding-top: 0px;
 .navbar {
     padding: 25px;
     display: flex;

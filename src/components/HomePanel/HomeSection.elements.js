@@ -3,6 +3,12 @@ import logo from "../../utils/image/home.jpg";
 export const HomeSectionElement = styled.div`
 background: url(${logo})no-repeat;
 background-image:url(${require('../../utils/image/Svg_Home_1.svg').default});
+img{
+    z-index: -999;
+    width: 100%;
+    height: 100%;
+
+}
 .panel{
     .right{
         display: flex;
@@ -17,10 +23,11 @@ background-image:url(${require('../../utils/image/Svg_Home_1.svg').default});
     h1{
         font-size: 59px;
         margin-left: 37%;
+        margin-bottom: 20%;
     }
 }
 
-height: 400px;
+height: 550px;
 display: flex;
 flex-wrap: wrap;
 align-content: flex-end;

@@ -1,5 +1,6 @@
 import React from "react";
 import { Nav } from "./Navbar.elements";
+import Logo from '../../utils/image/Logo.svg';
 
 const Navbar = () => {
   return (
@@ -8,7 +9,7 @@ const Navbar = () => {
         <div class="wrapper">
           <nav class="navbar">
             <a href="#" class="logo">
-              Logo
+              <img src={Logo}></img>
             </a>
             <ul class="navbar__container">
               <a href="/">

@@ -23,6 +23,7 @@ color: #000;
     }
     img{
         width: 400px;
+        margin-top: 40px;
     }
     div{
         width: 50%;
