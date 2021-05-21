@@ -6,7 +6,7 @@ font-size:24px;
 font-weight:600;
 padding-top: 0px;
 .navbar {
-    padding: 25px;
+  padding: 0px 25px;
     display: flex;
     align-items: center;
   }
@@ -20,12 +20,13 @@ padding-top: 0px;
   .logo {
     font-size: 2rem;
     margin-right: auto;
+    img{
+      width: 150px;
+    }
   }
-  
   .navbar-item {
     font-size: 1.3rem;
   }
-  
   a {
     text-decoration: none;
     color: #000;

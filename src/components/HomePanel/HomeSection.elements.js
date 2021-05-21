@@ -7,7 +7,7 @@ img{
     z-index: -999;
     width: 100%;
     height: 100%;
-
+    position: absolute;
 }
 .panel{
     .right{
