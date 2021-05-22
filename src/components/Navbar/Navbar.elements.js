@@ -23,7 +23,6 @@ export const NavbarContainer = styled(Container)`
 display:flex;
 justify-content:space-between;
 align-items: center;
-border: 1px solid red;
 background: linear-gradient(90.09deg, rgba(0, 0, 0, 0) 14.68%, rgba(0, 0, 0, 0.3526) 29.44%, rgba(47, 56, 73, 0.82) 77.39%);
 @media screen and (max-width:415px){
 background:#101522;
