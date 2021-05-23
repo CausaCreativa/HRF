@@ -11,13 +11,17 @@ import {
 export const Hero = ({
     banner,
     title,
-    alt
+    alt,
+    vector,
+    hero,
 }) => {
     return (
+
         <>
             <HeroContainer>
-                <HeroImage alt={alt} />
-                <HeroSvg/>
+                <HeroImage alt={alt} hero={hero} />
+                <HeroSvg vector={vector}>
+                </HeroSvg>
                 <HeroTitle>
                     {title}
                 </HeroTitle>
