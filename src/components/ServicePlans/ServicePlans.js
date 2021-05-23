@@ -1,13 +1,16 @@
 import React from 'react'
-import {ServicePlansElements} from './ServicePlans.elements'
+import {ServicePlansElements,Title,Panel} from './ServicePlans.elements'
 
 
 const InfoSection = () => {
     return (
         <>
         <ServicePlansElements>
+            <Title>PLANES DE SERVICIO</Title>
+            <Panel>
+                
+            </Panel>
             <div class="service_plans">
-                <h1 class="title">PLANES DE SERVICIO</h1>
                 <div class="panel">
                     <div class="plan">
                         <img class="image_plan" src="https://www.officein.com.co/wp-content/uploads/2019/02/Conoce-como-se-mueve-el-mercado-de-las-oficinas-en-Bogota.jpg"></img>

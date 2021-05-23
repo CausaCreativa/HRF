@@ -6,7 +6,10 @@ display: grid;
 flex-direction:row;
 align-items: center;
 `;
-
+export const ServicePlan = {
+    title:'PLANES DE SERVICIO',
+    text:'Trabaja con nosotros'
+}
 export const HeroService = {
     image: require('../../utils/images/HeroService.jpg').default,
     alt:'Hero service image',

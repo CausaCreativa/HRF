@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 
 export const ServicePlansElements = styled.div`
+border: red solid 1px;
+margin-top: 44px;
 .service_plans{
     .text_button{
         margin: 10%;
@@ -42,3 +44,16 @@ export const ServicePlansElements = styled.div`
     background-size: cover;
 }
 `
+export const Title = styled.h1`
+    width: 100%;
+    margin: 36px 12px;
+    justify-content: center;
+    display: flex;
+`;
+
+export const Panel = styled.div`
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 9% 0px;
+`;

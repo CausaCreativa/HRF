@@ -1,5 +1,5 @@
 import React from "react";
-import { ContainerService,HeroService } from "./DataService"
+import { ContainerService,HeroService,ServicePlan } from "./DataService"
 import {ServicePlans,Hero} from "../../components"
 
 const Service = () => {
@@ -7,7 +7,7 @@ return (
     <>
     <ContainerService>
     <Hero {...HeroService} />
-    <ServicePlans></ServicePlans>
+    <ServicePlans {...ServicePlan}></ServicePlans>
     </ContainerService>
     </>
 );
