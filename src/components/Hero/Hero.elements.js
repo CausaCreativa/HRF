@@ -8,7 +8,7 @@ display:flex;
 position: relative;
 flex-direction:column;
 justify-content:center;
-height:95vh;
+height:${props => props.viewHeight}vh;
 width:100%;
 background-color:#f0d1f0;
 
@@ -52,7 +52,7 @@ font-weight:400;
 /* banner on section home container SVG image */
 export const HeroSvg =styled.div`
 position:absolute;
-top:100px;
+top:125px;
 background-image:url(${props => props.vector});
 background-position: center;
 background-repeat: no-repeat;

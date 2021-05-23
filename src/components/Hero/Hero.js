@@ -14,11 +14,12 @@ export const Hero = ({
     alt,
     vector,
     hero,
+    viewHeight
 }) => {
     return (
 
         <>
-            <HeroContainer>
+            <HeroContainer viewHeight={viewHeight}>
                 <HeroImage alt={alt} hero={hero} />
                 <HeroSvg vector={vector}>
                 </HeroSvg>

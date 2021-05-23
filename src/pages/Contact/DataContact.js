@@ -11,5 +11,6 @@ export const heroContact = {
     alt:'Hero contact image',
     banner: '',
     vector: require('../../utils/images/Svg_Home_1.svg').default,
-    title: ''
+    title: '',
+    viewHeight:95
 };

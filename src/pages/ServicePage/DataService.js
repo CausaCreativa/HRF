@@ -11,9 +11,10 @@ export const ServicePlan = {
     text:'Trabaja con nosotros'
 }
 export const HeroService = {
-    image: require('../../utils/images/HeroService.jpg').default,
+    hero: require('../../utils/images/HeroService.jpg').default,
     alt:'Hero service image',
     banner: ' ',
-    svg: require('../../utils/images/Svg_Services_1.svg').default,
-    title: ''
+    vector: require('../../utils/images/Svg_Services_1.svg').default,
+    title: '',
+    viewHeight:65
 };
