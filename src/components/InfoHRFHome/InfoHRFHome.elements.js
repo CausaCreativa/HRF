@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const InfoHRFHomeElements = styled.div`
 background-image:url(${require('../../utils/images/Svg_Home_2.svg').default});
 background-size: cover;
-height: 700px;
+height: 1000px;;
 color: #000;
 .contactUs{
     display: flex;
@@ -15,6 +15,10 @@ color: #000;
         flex-wrap: wrap;
         flex-direction: column-reverse;
         align-content: center;
+        p{
+            padding: 0px 122px;
+            font-family: 'Roboto';
+        }
     }
     .left{
         display: flex;
@@ -22,7 +26,7 @@ color: #000;
         align-content: center;
     }
     img{
-        width: 400px;
+        width: 752px;
         margin-top: 40px;
     }
     div{

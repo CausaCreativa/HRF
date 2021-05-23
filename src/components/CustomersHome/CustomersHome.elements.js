@@ -3,7 +3,9 @@ import styled from 'styled-components'
 export const CustomersHomeEleents = styled.div`
 background-image:url(${require('../../utils/images/Svg_Home_3.svg').default});
 background-size: cover;
-
+height: 800px;
+    display: flex;
+    align-items: center;
 .customers{
     height: 400px;
     width: 100%;
@@ -25,7 +27,7 @@ background-size: cover;
         font-size: 32px;
     }
     img{
-        width: 323px;
+        width: 625px;
         align-items: flex-start;
         margin: 51px 0px;
     }

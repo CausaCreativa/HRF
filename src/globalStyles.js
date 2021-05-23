@@ -20,6 +20,14 @@ export const GlobalStyle = createGlobalStyle`
         src: local('Spectral'), url(${SecondaryFont}) format('woff');
         font-style:normal;
     }
+    .button{
+        border-radius: 15px;
+        background-color: #0088eb;
+        padding: 5px 30px;
+        color: #fff;
+        font-size: 27px;
+        margin-left: 61%;
+    }
 `;
 
 

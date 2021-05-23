@@ -1,12 +1,12 @@
 import React from "react";
-import { ContainerContact } from "./DataContact"
-import { FormContact,Location} from "../../components"
+import { ContainerContact,heroHome } from "./DataContact"
+import {Hero, FormContact,Location} from "../../components"
 
 const Contact = () => {
 return (
     <>
     <ContainerContact>
-
+    <Hero {...heroHome} />
     <FormContact></FormContact>
     <Location></Location>
     </ContainerContact>

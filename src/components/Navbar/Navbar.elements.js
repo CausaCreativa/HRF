@@ -38,6 +38,8 @@ text-decoration: none;
 font-size:2rem;
 display: flex;
 align-items:flex-start;
+margin-top: 67px;
+position:absolute;
 `;
 
 
@@ -80,6 +82,7 @@ height: auto;
 align-items:center;
 list-style:none;
 text-align: center;
+margin-top: 116px;
 @media screen and (max-width: 960px){
     display:flex;
     flex-direction:column;
