@@ -6,11 +6,10 @@ display: grid;
 flex-direction:row;
 align-items: center;
 `;
-
-export const heroHome = {
-    Hero: require('../../utils/images/heroImage.jpg').default,
-    alt:'Hero team image',
+export const heroContact = {
+    hero: require('../../utils/images/contact.jpg').default,
+    alt:'Hero contact image',
     banner: '',
-    heroSvg: require('../../utils/images/Svg_Home_1.svg').default,
+    vector: require('../../utils/images/Svg_Home_1.svg').default,
     title: ''
 };

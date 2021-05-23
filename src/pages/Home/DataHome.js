@@ -12,9 +12,9 @@ export const homeObjOne = {
     };
 
     export const heroHome = {
-        Hero: require('../../utils/images/heroImage.jpg').default,
+        hero: require('../../utils/images/heroImage.jpg').default,
         alt:'Hero team image',
         banner: 'Para HRF lo más importante eres tu... ',
-        heroSvg: require('../../utils/images/Svg_Home_1.svg').default,
+        vector: require('../../utils/images/Svg_Home_1.svg').default,
         title: 'SOMOS HRF'
     };

@@ -1,5 +1,7 @@
 import styled from 'styled-components'
-import {heroHome} from '../../pages/Home/DataHome'
+
+
+
 
 export const HeroContainer = styled.div`
 display:flex;
@@ -51,7 +53,7 @@ font-weight:400;
 export const HeroSvg =styled.div`
 position:absolute;
 top:100px;
-background-image:url(${heroHome.heroSvg});
+background-image:url(${props => props.vector});
 background-position: center;
 background-repeat: no-repeat;
 background-size: 100% 100%;
@@ -64,7 +66,7 @@ color:#fff;
 export const HeroImage =styled.div`
 width:100%;
 height:100%;
-background-image:url(${heroHome.Hero});
+background-image:url(${ props => props.hero});
 background-size:cover;
 background-repeat: no-repeat;
 object-fit:contain;
