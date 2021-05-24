@@ -1,14 +1,13 @@
 import React from "react";
-import { ContainerService,HeroService,ServicePlan } from "./DataService"
-import {ServicePlans,Hero} from "../../components"
+import { HeroService,Title} from "./DataService"
+import {Hero,PanelService} from "../../components"
 
 const Service = () => {
 return (
     <>
-    <ContainerService>
     <Hero {...HeroService} />
-    <ServicePlans {...ServicePlan}></ServicePlans>
-    </ContainerService>
+    <Title>PLANES DE SERVICIO</Title>
+    <PanelService></PanelService>
     </>
 );
 };
