@@ -10,3 +10,7 @@ export const homeObjOne = {
         title: 'SOMOS HRF',
         viewHeight:90
     };
+
+    export const dataInfoHome = {
+        vecto: require('../../utils/images/Svg_Home_1.svg').default
+    }
