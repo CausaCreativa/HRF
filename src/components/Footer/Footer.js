@@ -23,7 +23,6 @@ export const Footer = () => {
                 </FooterMenu>
                 <FooterMenu>
                     <FooterItem>
-                    
                     </FooterItem>
                 </FooterMenu>
             </FooterContainer>

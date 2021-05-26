@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import logopage from '../../utils/images/Logo.svg'
+import logopage from '../../utils/images/LogoHeader.svg'
 import {Link} from 'react-router-dom'
 import {Container} from '../../globalStyles'
 
@@ -14,12 +14,13 @@ display: inline-flex;
 justify-content: center;
 align-items: center;
 font-weight:1.2rem;
-top:-8px;
+top:0;
 z-index:999;
 position:absolute;
 `;
 
 export const NavbarContainer = styled(Container)`
+
 display:flex;
 justify-content:space-between;
 align-items: center;
@@ -46,6 +47,8 @@ position:absolute;
 
 export  const NavIcon=styled.div`
 display:flex;
+position: relative;
+top:20px;
 align-items:center;
 width:250px;
 height:250px;
@@ -78,11 +81,10 @@ export const NavMenu = styled.ul`
 display:flex;
 width:100%;
 justify-content: flex-end;
-height: auto;
+height: 120px;
 align-items:center;
 list-style:none;
 text-align: center;
-margin-top: 116px;
 @media screen and (max-width: 960px){
     display:flex;
     flex-direction:column;
@@ -98,7 +100,7 @@ margin-top: 116px;
 `;
 
 export const NavItem = styled.li`
-height: 80px;
+margin-top: 18px;
 border-bottom: 2px solid transparent;
 &:hover{
     border-bottom:2px solid #4b59f7;

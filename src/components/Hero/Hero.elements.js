@@ -32,7 +32,7 @@ font-weight:400;
 /* banner on section left */
 export const HeroTitle =styled.div`
 position:absolute;
-bottom:180px;
+bottom:140px;
 margin-left: 8%;
 padding-top: 2%;
 align-self:flex-start;
@@ -40,7 +40,7 @@ justify-content:flex-start;
 width:20%;
 height:160px;
 font-family:'Roboto';
-font-size:75px;
+font-size:70px;
 letter-spacing:2px;
 line-height:80px;
 text-align: center;
