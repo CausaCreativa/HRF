@@ -21,4 +21,5 @@ export const Image = styled.img`
 export const Text = styled.p`
     border-top: #fff 2px solid;
     padding-top: 18px;
+    font-size: 20px;
 `;

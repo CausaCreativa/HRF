@@ -23,10 +23,17 @@ export const GlobalStyle = createGlobalStyle`
     .button{
         border-radius: 15px;
         background-color: #0088eb;
-        padding: 5px 30px;
+        padding: 2px 30px;
         color: #fff;
         font-size: 27px;
         margin-left: 61%;
+    }
+
+    .title_service{
+        width: 100%;
+        margin: 25px 12px;
+        justify-content: center;
+        display: flex;
     }
 `;
 

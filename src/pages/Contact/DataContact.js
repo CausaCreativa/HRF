@@ -1,16 +1,26 @@
 import styled from 'styled-components'
-export  const ContainerContact  = styled.nav`
-background:#000;
-color:white;
-display: grid;
-flex-direction:row;
-align-items: center;
-`;
+
 export const heroContact = {
-    hero: require('../../utils/images/contact.jpg').default,
+    hero: require('../../utils/images/HeroContact.jpg').default,
     alt:'Hero contact image',
     banner: '',
     vector: require('../../utils/images/Svg_Home_1.svg').default,
     title: '',
-    viewHeight:95
+    viewHeight:120
 };
+
+export const formContact = {
+    formImage:require('../../utils/images/HeroContact.jpg').default,
+};
+export const IconCarta = {
+    imgUrl:require('../../utils/images/carta.svg').default,
+    text:"hrfasociados@gmail.com"
+}
+export const IconElectronic = {
+    imgUrl:require('../../utils/images/comercio-electronico.svg').default,
+    text:"320-225-4548"
+}
+export const IconUbicacion = {
+    imgUrl:require('../../utils/images/ubicacion.svg').default,
+    text:"Carrera 5 # 15-20"
+}

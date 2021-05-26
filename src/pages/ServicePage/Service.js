@@ -6,7 +6,7 @@ const Service = () => {
 return (
     <>
     <Hero {...HeroService} />
-    <Title>PLANES DE SERVICIO</Title>
+    <h1 className="title_service">PLANES DE SERVICIO</h1>
     <PanelService></PanelService>
     </>
 );
