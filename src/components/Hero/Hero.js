@@ -21,8 +21,7 @@ export const Hero = ({
         <>
             <HeroContainer viewHeight={viewHeight}>
                 <HeroImage alt={alt} hero={hero} />
-                <HeroSvg vector={vector}>
-                </HeroSvg>
+                <HeroSvg vector={vector}/>
                 <HeroTitle>
                     {title}
                 </HeroTitle>

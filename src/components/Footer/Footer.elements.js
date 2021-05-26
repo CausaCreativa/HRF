@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import {Link} from 'react-router-dom'
+import logoFooter from '../../utils/images/LogoFooter.svg'
 
 
 
@@ -7,18 +8,16 @@ export const FooterContainer = styled.footer`
 background-color:#000;
 opacity: 90%;
 width: 100%;
-height: 150px;
 display: flex;
 flex-direction:column;
-justify-content: space-around;
 align-items: center;
+
 font-weight:1.2rem;
-padding-bottom:25px;
+padding-bottom:20px;
 `;
 
 export const FooterMenu = styled.ul`
 width:80%;
-height: 90px;
 display:flex;
 justify-content:center;
 align-items:center;
@@ -27,7 +26,7 @@ text-align: center;
 `;
 
 export const FooterItem = styled.li`
-height: 80px;
+height: 60px;
 border-bottom: 2px solid transparent;
 &:hover{
     border-bottom:2px solid #0088EB;
@@ -44,4 +43,34 @@ align-items:center;
 text-decoration: none;
 padding:0.5rem 1rem;
 height:100%;
+`;
+
+export const Copyrigth = styled.div`
+font-size: 1.4rem;
+font-family: "Spectral";
+text-align: center;
+width: auto;
+height: auto;
+color: white;
+`;
+
+export const ContainerLogo =styled.div`
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 80px;
+
+`;
+
+export const LogoFooter = styled.div`
+position: absolute;
+bottom: 10px;
+width: 150px;
+height: 150px;
+background-image:url(${logoFooter});
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+
 `;
