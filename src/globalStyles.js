@@ -37,9 +37,10 @@ export const GlobalStyle = createGlobalStyle`
 
     .title_service{
         width: 100%;
-        margin: 25px 12px;
+        margin: 17px 12px;
         justify-content: center;
         display: flex;
+        color: #fff;
     }
 `;
 

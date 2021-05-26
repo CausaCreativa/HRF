@@ -2,12 +2,12 @@ import React from 'react'
 import {Plan,Image,Text} from './ServicePlans.elements'
 
 
-const InfoSection = ({pic,text}) => {
+const InfoSection = ({pic,text,color}) => {
     return (
         <>
         <Plan>
             <Image pic={pic} />
-            <Text>{text}</Text>
+            <Text color={color}>{text}</Text>
         </Plan>
         </>
     )

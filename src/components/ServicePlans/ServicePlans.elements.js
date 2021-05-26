@@ -18,8 +18,9 @@ export const Image = styled.img`
     background-size: 100% 100%;
 `;
 
-export const Text = styled.p`
-    border-top: #fff 2px solid;
+export const Text= styled.p`
+    border-top: #${props => props.color} 2px solid;
     padding-top: 18px;
     font-size: 20px;
+    color: #${props => props.color};
 `;
