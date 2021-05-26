@@ -3,17 +3,15 @@ import {InfoHome, HeroSvg, HomeLeft, HomeRight} from './InfoHRFHome.elements'
 
 
 const InfoHRFHome = (
-    vecto
+   {vector}
 ) => {
     return (
         <>
         <InfoHome>
-                <HeroSvg vecto={vecto}></HeroSvg>
+                <HeroSvg vector={vector}></HeroSvg>
                 <HomeLeft>
-                    hola
                 </HomeLeft>
                 <HomeRight>
-                    hola ustedes
                 </HomeRight>
 
 
