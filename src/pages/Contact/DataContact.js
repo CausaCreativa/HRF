@@ -6,7 +6,7 @@ export const heroContact = {
     banner: '',
     vector: require('../../utils/images/svg_contact_1.svg').default,
     title: '',
-    viewHeight:120
+    viewHeight:74
 };
 
 export const formContact = {
