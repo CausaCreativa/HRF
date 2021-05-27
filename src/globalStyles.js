@@ -36,7 +36,6 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     .title_service{
-        width: 100%;
         margin: 17px 12px;
         justify-content: center;
         display: flex;

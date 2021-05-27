@@ -1,14 +1,13 @@
 import React from "react";
-import { LocationElements,IconPanel,IframeContent } from "./Location.element";
-import carta from "../../utils/images/carta.svg";
-import electronico from "../../utils/images/comercio-electronico.svg";
-import ubicacion from "../../utils/images/ubicacion.svg";
+import { IconPanel,IframeContent,ContainerPanelLocation,PanelLocationBackground } from "./Location.element";
 import {IconContacts} from "../../components"
-import {IconCarta,IconElectronic,IconUbicacion} from "../../pages/Contact/DataContact"
+import {IconCarta,IconElectronic,IconUbicacion,BackgroundService3} from "../../pages/Contact/DataContact"
 
 const Location = () => {
   return (
     <>
+    <ContainerPanelLocation>
+      <PanelLocationBackground {...BackgroundService3}>
       <h1>SEDE</h1>
       <IconPanel>
         <IconContacts {...IconCarta}></IconContacts>
@@ -23,6 +22,8 @@ const Location = () => {
               loading="lazy"
             ></iframe>
       </IframeContent>
+      </PanelLocationBackground>
+    </ContainerPanelLocation>
     </>
   );
 };

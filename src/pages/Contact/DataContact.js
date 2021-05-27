@@ -4,7 +4,7 @@ export const heroContact = {
     hero: require('../../utils/images/HeroContact.jpg').default,
     alt:'Hero contact image',
     banner: '',
-    vector: require('../../utils/images/Svg_Home_1.svg').default,
+    vector: require('../../utils/images/svg_contact_1.svg').default,
     title: '',
     viewHeight:120
 };
@@ -24,3 +24,10 @@ export const IconUbicacion = {
     imgUrl:require('../../utils/images/ubicacion.svg').default,
     text:"Carrera 5 # 15-20"
 }
+
+export const BackgroundService2 = {
+    Background:require('../../utils/images/svg_contact_1.svg').default
+};
+export const BackgroundService3 = {
+    Background:require('../../utils/images/svg_contact_3.svg').default
+};
