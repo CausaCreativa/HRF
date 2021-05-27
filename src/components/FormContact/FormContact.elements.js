@@ -1,6 +1,20 @@
 
 import styled from 'styled-components'
 
+export const ContainerPanelForm = styled.div`
+height: 129vh;
+position: relative;
+`;
+export const PanelFormBackground = styled.div`
+background-image:url(${ props => props.Background});
+background-position: center;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+width: 100%;
+height: 100%;
+position: absolute;
+`;
+
 export const PanelCont = styled.div`
     display: flex;
     flex-wrap: wrap;
@@ -11,9 +25,11 @@ export const PanelCont = styled.div`
 
 export const Title = styled.h1`
 width: 100%;
-margin: 36px 12px;
+margin: 2% 7% 16% 7%;
 justify-content: flex-start;
 display: flex;
+color: #fff;
+font-size: 40px;
 `;
 
 

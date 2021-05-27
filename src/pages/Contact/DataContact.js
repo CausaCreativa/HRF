@@ -6,7 +6,7 @@ export const heroContact = {
     banner: '',
     vector: require('../../utils/images/svg_contact_1.svg').default,
     title: '',
-    viewHeight:74
+    viewHeight:72
 };
 
 export const formContact = {
@@ -26,7 +26,7 @@ export const IconUbicacion = {
 }
 
 export const BackgroundService2 = {
-    Background:require('../../utils/images/svg_contact_1.svg').default
+    Background:require('../../utils/images/svg_contact_2.svg').default
 };
 export const BackgroundService3 = {
     Background:require('../../utils/images/svg_contact_3.svg').default

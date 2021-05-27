@@ -1,10 +1,13 @@
 import React from "react";
-import { FormContactElements,PanelCont,Title,Panel,Form,Input,Textarea,Button,Image } from "./FormContact.elements";
-import {formContact} from "../../pages/Contact/DataContact"
+import { PanelCont,Title,Panel,Form,Input,Textarea,Button,Image,ContainerPanelForm,PanelFormBackground} from "./FormContact.elements";
+import {BackgroundService2} from "../../pages/Contact/DataContact"
 const FormContact = () => {
   return (
     <>
-    <PanelCont>
+    <ContainerPanelForm>
+      <PanelFormBackground {...BackgroundService2}>
+
+      <PanelCont>
       <Title>CONTACTO</Title>
       <Panel>
         <Form>
@@ -16,10 +19,10 @@ const FormContact = () => {
           <Button className="button">Enviar</Button>
         </Form>
       </Panel>
-      <Panel>
-        <Image {...formContact}/>
-      </Panel>
     </PanelCont>
+      </PanelFormBackground>
+    </ContainerPanelForm>
+    
     </>
   );
 };
