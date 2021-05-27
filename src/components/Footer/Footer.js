@@ -1,9 +1,12 @@
 import React from 'react'
-import {FooterContainer, FooterItem, FooterLink, FooterMenu} from './Footer.elements'
+import {ContainerLogo, Copyrigth, FooterContainer, FooterItem, FooterLink, FooterMenu, LogoFooter} from './Footer.elements'
 export const Footer = () => {
     return (
         <>
-     <FooterContainer>
+        <FooterContainer>
+        <ContainerLogo>
+ <LogoFooter/>
+                </ContainerLogo>
                 <FooterMenu>
                     <FooterItem>
                         <FooterLink to='/aboutUs'>
@@ -22,8 +25,7 @@ export const Footer = () => {
                     </FooterItem>
                 </FooterMenu>
                 <FooterMenu>
-                    <FooterItem>
-                    </FooterItem>
+                    <Copyrigth>®Causa Creativa <br></br> Todos los derechos reservados</Copyrigth>
                 </FooterMenu>
             </FooterContainer>
         </>
