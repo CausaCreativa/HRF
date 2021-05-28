@@ -6,7 +6,7 @@ export const InfoHome= styled.div`
     width: 100%;
     height: 1000px;
     color: #000;
-    top: 55px;
+    top: 70px;
 
 `;
 
