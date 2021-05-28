@@ -40,6 +40,10 @@ export const GlobalStyle = createGlobalStyle`
         justify-content: center;
         display: flex;
         color: #fff;
+        @media screen and (max-width: 1400px){
+            font-size: 27px;
+            margin: 7px 0px;
+        }
     }
 `;
 

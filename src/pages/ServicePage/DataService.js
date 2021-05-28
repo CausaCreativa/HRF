@@ -4,7 +4,7 @@ export const HeroService = {
     banner: ' ',
     vector: require('../../utils/images/Svg_Services_1.svg').default,
     title: '',
-    viewHeight:73
+    viewHeight:78//Desktop: 83//FULL: 73
 };
 export const BackgroundService2 = {
     Background:require('../../utils/images/Svg_Services_2.svg').default
