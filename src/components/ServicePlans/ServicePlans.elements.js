@@ -26,6 +26,16 @@ export const Image = styled.img`
         height: 130px;
         margin-bottom: 6px;
     }
+    @media screen and (max-width: 480px){
+        width: 70px;
+        height: 70px;
+        margin-bottom: 4px;
+    }
+    @media screen and (max-width: 460px){
+        width: 65px;
+        height: 65px;
+        margin-bottom: 4px;
+    }
 `;
 
 export const Text= styled.p`
@@ -40,5 +50,15 @@ export const Text= styled.p`
     @media screen and (max-width: 900px){
         padding-top: 8px;
         font-size: 12px;
+    }
+    @media screen and (max-width: 480px){
+        padding-top: 3px;
+        font-size: 7px;
+        border-top: #${props => props.color} 1px solid;
+    }
+    @media screen and (max-width: 460px){
+        padding-top: 2px;
+        font-size: 5px;
+        border-top: #${props => props.color} 1px solid;
     }
 `;

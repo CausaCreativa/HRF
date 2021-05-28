@@ -12,6 +12,15 @@ export const ContainerBackgroundTop = styled.div`
     @media screen and (max-width: 900px){
         height: 313px;
     }
+    @media screen and (max-width: 800px){
+        height: 267px;
+    }
+    @media screen and (max-width: 480px){
+        height: 168px;
+    }
+    @media screen and (max-width: 460px){
+        height: 144px
+    }
 `;
 export const ContainerBackgroundBody = styled.div`
 height: 447px;
@@ -21,6 +30,9 @@ position: relative;
 }
 @media screen and (max-width: 900px){
     height: 193px;
+}
+@media screen and (max-width: 480px){
+    height: 119px;
 }
 `;
 export const ContainerBackgroundBotton = styled.div`
@@ -34,8 +46,12 @@ margin-bottom: 92px;
 @media screen and (max-width: 900px){
     height: 426px;
 }
-
-
+@media screen and (max-width: 480px){
+height: 224px;
+}
+@media screen and (max-width: 415px){
+    height: 192px
+}
 `;
 export const BackgroundTop = styled.div`
     background-image:url(${ props => props.Background});

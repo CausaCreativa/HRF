@@ -44,6 +44,14 @@ export const GlobalStyle = createGlobalStyle`
             font-size: 27px;
             margin: 7px 0px;
         }
+        @media screen and (max-width: 900px){
+            font-size: 22px;
+            margin: 3px 0px;
+        }
+        @media screen and (max-width: 480px){
+            font-size: 13px;
+            margin: 0px 0px;
+        }
     }
 `;
 
