@@ -31,8 +31,10 @@ export const GlobalStyle = createGlobalStyle`
         background-color: #0088eb;
         padding: 2px 30px;
         color: #fff;
-        font-size: 27px;
-        margin-left: 61%;
+        font-size: 2.5rem ;
+        font-family: 'hind';
+        font-weight: 100;
+        cursor: pointer;
     }
 
     .title_service{

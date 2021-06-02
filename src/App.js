@@ -1,6 +1,5 @@
 import React from 'react'
-import { Navbar} from './components'
-import {Footer} from './components'
+import { Navbar, Footer} from './components'
 import Home from './pages/Home/Home'
 import AboutUs from './pages/AboutUs/AboutUs'
 import Service from './pages/ServicePage/Service'
