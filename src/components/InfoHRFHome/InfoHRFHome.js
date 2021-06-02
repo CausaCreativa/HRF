@@ -7,6 +7,7 @@ import {InfoHome,
         ContainerText,
     } from './InfoHRFHome.elements'
 import ReactPlayer from 'react-player'
+import {Link} from 'react-router-dom'
 
 
 const InfoHRFHome = (
@@ -28,9 +29,12 @@ const InfoHRFHome = (
                         controls
                         />
                     </ContainerVideo>
+                    <Link to="/AboutUs">
                     <button className="button" to="/contact">
                          - Contactanos -
                     </button>
+                    </Link>
+                    
                 </HomeLeft>
                 <HomeRight>
                     <ContainerText>
