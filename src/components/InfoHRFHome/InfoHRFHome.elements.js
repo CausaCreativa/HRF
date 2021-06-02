@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import {Link} from 'react-router'
+
 
 export const InfoHome= styled.div`
     display: flex;
@@ -58,7 +58,7 @@ color: black;
 margin-top: 45%;
 `;
 
-export const  ButtomHome = styled(Link)`
+export const  ButtomHome = styled.button`
 
 `;
 
