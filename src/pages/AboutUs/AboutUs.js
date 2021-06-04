@@ -1,10 +1,15 @@
 import React from "react";
-import { ContainerAboutUs } from "./DataAboutUs"
+import { heroAbautUs } from "./DataAboutUs"
+import { Hero,AboutUsComponent,OrganizationalDNA,Values,Team } from "../../components";
 const AboutUs = () => {
 return (
     <>
-    <ContainerAboutUs>
-    </ContainerAboutUs>
+    <Hero {...heroAbautUs} />
+    <AboutUsComponent></AboutUsComponent>
+    <OrganizationalDNA></OrganizationalDNA>
+    <Values></Values>
+    <Team></Team>
+    
     </>
 );
 };
