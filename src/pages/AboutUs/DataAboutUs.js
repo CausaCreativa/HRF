@@ -19,4 +19,6 @@ export const heroAbautUs = {
     export const BackgroundAboutUsFour = {
         Background:require('../../utils/images/Svg_quisomos_6.svg').default
     };
-    
+    export const ImageAbautUsComponent = {
+        pic:require('../../utils/images/ImageAbautUsComponent.jpg').default
+    };

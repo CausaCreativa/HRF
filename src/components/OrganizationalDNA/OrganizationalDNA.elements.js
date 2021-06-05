@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const ContainerBackgroundTop = styled.div`
-
+margin-top: 90vh;
 height: 625px;
 position: relative;
 @media screen and (max-width: 1900px){
