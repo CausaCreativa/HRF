@@ -102,6 +102,7 @@ right: 0%;
 justify-content: center;
 display: flex;
 border: 1px solid red;
+overflow: hidden;
 `;
 
 export const Slider = styled.div`
@@ -114,13 +115,13 @@ white-space: nowrap;
 
 export const IconsC = styled.div`
 width: 100%;
-display: inline-block;
+display: flex;
 height: 100%;
 margin: 0px 0;
 `;
 
-export const LogoContainer =styled.i`
-width:calc(100% / 5);
+export const LogoContainer =styled.div`
+width: 800px;
 height: 100%;
 animation: ${fadein} 0.5s cubic-bezier( 0.455, 0.03, 0.515, 0.955) forwards ;
 background-image: url(${props =>props.iconos});

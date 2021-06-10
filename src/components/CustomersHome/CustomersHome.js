@@ -47,10 +47,8 @@ const CustomersHome = ({
                                 <LogoContainer iconos={iconos[0]}/>
                                 <LogoContainer iconos={iconos[0]}/>
                                 <LogoContainer iconos={iconos[0]}/>
-                                <LogoContainer iconos={iconos[0]}/>
                             </IconsC>
                             <IconsC>
-                                <LogoContainer iconos={iconos[0]}/>
                                 <LogoContainer iconos={iconos[0]}/>
                                 <LogoContainer iconos={iconos[0]}/>
                                 <LogoContainer iconos={iconos[0]}/>
