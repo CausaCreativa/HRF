@@ -14,3 +14,8 @@ export const homeObjOne = {
     export const dataInfoHome = {
         vector: require('../../utils/images/Svg_Home_2.svg').default
     }
+
+    export const dataCustomer = {
+        vector: require('../../utils/images/Svg_Home_3.svg').default,
+        imagen: require('../../utils/images/clietnes.jpg').default
+    }
