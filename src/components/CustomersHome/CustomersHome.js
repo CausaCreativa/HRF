@@ -1,12 +1,26 @@
 import React from 'react'
 
-import {CustomersHomeElements,HeroSvg, ContainerTitle, Title, Subtitle, ContianerSlider, ContainerImage, SliderContainer, ImageBg
+import {CustomersHomeElements,
+        HeroSvg,
+        ContainerTitle,
+        Title,
+        Subtitle,
+        ContianerSlider,
+        ContainerImage,
+        SliderContainer,
+        ImageBg,
+        Slider,
+        IconsC,
+        LogoContainer
 
 } from './CustomersHome.elements'
 
 
 const CustomersHome = ({
-    vector, imagen}
+    vector,
+    imagen,
+    iconos,
+}
 ) => {
     return (
         <>
@@ -26,6 +40,24 @@ const CustomersHome = ({
                     </ContainerImage>
                     <ImageBg/>
                     <SliderContainer>
+                        <Slider>
+                            <IconsC>
+                                <LogoContainer iconos={iconos[0]}/>
+                                <LogoContainer iconos={iconos[0]}/>
+                                <LogoContainer iconos={iconos[0]}/>
+                                <LogoContainer iconos={iconos[0]}/>
+                                <LogoContainer iconos={iconos[0]}/>
+                                <LogoContainer iconos={iconos[0]}/>
+                            </IconsC>
+                            <IconsC>
+                                <LogoContainer iconos={iconos[0]}/>
+                                <LogoContainer iconos={iconos[0]}/>
+                                <LogoContainer iconos={iconos[0]}/>
+                                <LogoContainer iconos={iconos[0]}/>
+                                <LogoContainer iconos={iconos[0]}/>
+                                <LogoContainer iconos={iconos[0]}/>
+                            </IconsC>
+                        </Slider>
                     </SliderContainer>
                 </ContianerSlider>
 
