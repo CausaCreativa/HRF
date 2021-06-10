@@ -1,11 +1,20 @@
 import styled from 'styled-components'
 
+export const Title = styled.h1`
+margin-top: 15vh;
+display: flex;
+justify-content: flex-end;
+margin-right: 38px;
+color: white;
+font-size: 50px;
+`;
+
 export const ContainerBackgroundTop = styled.div`
 margin-top: 90vh;
 height: 625px;
 position: relative;
 @media screen and (max-width: 1900px){
-    height: 540px
+    height: 1160px
 }
 @media screen and (max-width: 1400px){
     height: 488px;
