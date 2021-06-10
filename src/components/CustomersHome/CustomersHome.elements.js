@@ -6,7 +6,7 @@ from {
     transform: translate3d(0, 0, 0);
   }
   to {
-    transform: translate3d(100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
   }
 `;
 
@@ -115,14 +115,17 @@ white-space: nowrap;
 
 export const IconsC = styled.div`
 width: 100%;
-display: flex;
+display:flex;
 height: 100%;
 margin: 0px 0;
+justify-content: center;
+align-items: center;
 `;
 
 export const LogoContainer =styled.div`
-width: 800px;
+width: 400px;
 height: 100%;
+margin: 25px;
 animation: ${fadein} 0.5s cubic-bezier( 0.455, 0.03, 0.515, 0.955) forwards ;
 background-image: url(${props =>props.iconos});
 background-position: center;
