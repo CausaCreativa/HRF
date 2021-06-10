@@ -5,7 +5,7 @@ import {CustomersHomeElements} from './CustomersHome.elements'
 const CustomersHome = () => {
     return (
         <>
-           <CustomersHomeElements> </CustomersHomeElements>  
+           <CustomersHomeElements> </CustomersHomeElements>
         </>
     )
 }

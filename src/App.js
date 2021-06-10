@@ -5,7 +5,7 @@ import AboutUs from './pages/AboutUs/AboutUs'
 import Service from './pages/ServicePage/Service'
 import Contact from './pages/Contact/Contact'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
-import {GlobalStyle } from './globalStyles'
+import {GlobalStyle} from './globalStyles'
 
 
 function App() {
