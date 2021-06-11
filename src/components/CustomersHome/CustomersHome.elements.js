@@ -101,7 +101,8 @@ top: 50%;
 right: 0%;
 justify-content: center;
 display: flex;
-border: 1px solid red;
+background-color: #fff;
+
 overflow: hidden;
 `;
 
@@ -123,6 +124,7 @@ align-items: center;
 `;
 
 export const LogoContainer =styled.div`
+position: relative;
 width: 400px;
 height: 100%;
 margin: 25px;
