@@ -43,17 +43,19 @@ const CustomersHome = ({
                         <Slider>
                             <IconsC>
                                 <LogoContainer iconos={iconos[0]}/>
-                                <LogoContainer iconos={iconos[0]}/>
-                                <LogoContainer iconos={iconos[0]}/>
-                                <LogoContainer iconos={iconos[0]}/>
-                                <LogoContainer iconos={iconos[0]}/>
+                                <LogoContainer iconos={iconos[1]}/>
+                                <LogoContainer iconos={iconos[2]}/>
+                                <LogoContainer iconos={iconos[3]}/>
+                                <LogoContainer iconos={iconos[4]}/>
+                                <LogoContainer iconos={iconos[5]}/>
                             </IconsC>
                             <IconsC>
                                 <LogoContainer iconos={iconos[0]}/>
-                                <LogoContainer iconos={iconos[0]}/>
-                                <LogoContainer iconos={iconos[0]}/>
-                                <LogoContainer iconos={iconos[0]}/>
-                                <LogoContainer iconos={iconos[0]}/>
+                                <LogoContainer iconos={iconos[1]}/>
+                                <LogoContainer iconos={iconos[2]}/>
+                                <LogoContainer iconos={iconos[3]}/>
+                                <LogoContainer iconos={iconos[4]}/>
+                                <LogoContainer iconos={iconos[5]}/>
                             </IconsC>
                         </Slider>
                     </SliderContainer>

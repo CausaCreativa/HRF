@@ -40,4 +40,5 @@ background-image:url(${ props => props.Background});
     width: 100%;
     height: 100%;
     position: absolute;
+    top: -2.5%;
 `;

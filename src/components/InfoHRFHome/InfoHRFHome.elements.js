@@ -15,7 +15,7 @@ export const HeroSvg =styled.div`
 display: flex;
 position:absolute;
 z-index: -10;
-top:-35px;
+top:-150px;
 background-image:url(${props => props.vector});
 background-position: center;
 background-repeat: no-repeat;

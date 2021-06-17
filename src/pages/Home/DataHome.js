@@ -18,5 +18,10 @@ export const homeObjOne = {
     export const dataCustomer = {
         vector: require('../../utils/images/Svg_Home_3.svg').default,
         imagen: require('../../utils/images/clietnes.jpg').default,
-        iconos:[require('../../utils/images/clietnes.jpg').default, require('../../utils/images/chico2.png')]
+        iconos:[require('../../utils/images/acueducto.png').default,
+                require('../../utils/images/Caprecom.png').default,
+                require('../../utils/images/Fiduciariacentral.png').default,
+                require('../../utils/images/eru_1.png').default,
+                require('../../utils/images/RTVC.png').default,
+                require('../../utils/images/mov.png').default]
     }
