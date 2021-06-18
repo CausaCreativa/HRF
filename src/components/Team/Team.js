@@ -1,15 +1,25 @@
 import React from 'react'
 
 import {ContainerTeam,
+        CardTeam,
+        CardTeamText
 
 } from './Team.elements'
-import {BackgroundAboutUsFour} from '../../pages/AboutUs/DataAboutUs'
 
-const Team = () => {
+
+const Team = ({
+    Background
+}) => {
     return (
         <>
-        <ContainerTeam>
-
+        <ContainerTeam Background={Background[3]}>
+            <CardTeam>
+                <CardTeamText>
+                    <h1>
+        Maria Jones
+                    </h1>
+                </CardTeamText>
+            </CardTeam>
         </ContainerTeam>
         </>
     )
