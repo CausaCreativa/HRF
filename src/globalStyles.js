@@ -27,9 +27,9 @@ export const GlobalStyle = createGlobalStyle`
         src: local('Hind'), url(${Third}) format('woff');
         font-style:normal;
     }
-    @font-@font-face {
+    @font-face {
         font-family: 'Play';
-        src: url(${Play});
+        src: local('Play'),url(${Play}) format('ttf');
     }
     .button{
         border-radius: 15px;
