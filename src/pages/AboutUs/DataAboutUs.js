@@ -7,17 +7,11 @@ export const heroAbautUs = {
         viewHeight:43
     };
 
-    export const BackgroundAboutUsOne = {
-        Background:require('../../utils/images/Svg_quisomos_2.svg').default
-    };
-    export const BackgroundAboutUsTwo = {
-        Background:require('../../utils/images/Svg_quisomos_3.svg').default
-    };
-    export const BackgroundAboutUsThree = {
-        Background:require('../../utils/images/Svg_quisomos_4.svg').default
-    };
-    export const BackgroundAboutUsFour = {
-        Background:require('../../utils/images/Svg_quisomos_6.svg').default
+    export const BackgroundAboutUs = {
+        Background:[require('../../utils/images/Svg_quisomos_2.svg').default,
+        require('../../utils/images/Svg_quisomos_3.svg').default,
+        require('../../utils/images/Svg_quisomos_4.svg').default,
+        require('../../utils/images/Svg_quisomos_6.svg').default]
     };
     export const ImageAbautUsComponent = {
         pic:require('../../utils/images/ImageAbautUsComponent.jpg').default

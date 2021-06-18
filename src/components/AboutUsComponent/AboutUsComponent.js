@@ -1,13 +1,15 @@
 import React from 'react'
 import {ContainerBackgroundTop,Container,BackgroundTop,Title,Image,ContentImage,ContentText,Text,ContentText2,Text2} from './AboutUsComponent.elements'
-import {BackgroundAboutUsOne,ImageAbautUsComponent} from '../../pages/AboutUs/DataAboutUs'
+import {ImageAbautUsComponent} from '../../pages/AboutUs/DataAboutUs'
 
 
-const AboutUsComponent = () => {
+const AboutUsComponent = ({
+    Background
+}) => {
     return (
         <>
         <ContainerBackgroundTop>
-            <BackgroundTop {...BackgroundAboutUsOne}>
+            <BackgroundTop Background={Background[1]} >
                 <Title> ¿QUIENES SOMOS? </Title>
                 <Container>
                     <ContentImage>

@@ -1,13 +1,15 @@
 import React from 'react'
 import {ContainerBackgroundTop,BackgroundTop,Title} from './Values.elements'
-import {BackgroundAboutUsThree} from '../../pages/AboutUs/DataAboutUs'
 
 
-const Values = () => {
+
+const Values = ({
+    Background
+}) => {
     return (
         <>
            <ContainerBackgroundTop>
-            <BackgroundTop {...BackgroundAboutUsThree}>
+            <BackgroundTop Background={Background[2]}>
                 <Title>Valores</Title>
             </BackgroundTop>
             </ContainerBackgroundTop>
