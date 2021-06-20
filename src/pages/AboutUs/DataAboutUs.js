@@ -11,8 +11,22 @@ export const heroAbautUs = {
         Background:[require('../../utils/images/Svg_quisomos_2.svg').default,
         require('../../utils/images/Svg_quisomos_3.svg').default,
         require('../../utils/images/Svg_quisomos_4.svg').default,
-        require('../../utils/images/Svg_quisomos_6.svg').default]
-    };
+        require('../../utils/images/Svg_quisomos_6.svg').default,
+    ],
+    imgStart:["row","row-reverse"],
+    desborde:["left:15%;","right:15%;"]
+}
     export const ImageAbautUsComponent = {
         pic:require('../../utils/images/ImageAbautUsComponent.jpg').default
     };
+    export const  TeamData ={
+        Icon:[require('../../utils/images/facebook.svg').default,
+                 require('../../utils/images/facebook.svg').default],
+        member1:["JUAN PABLO CORREDOR","Desarrollador", "Mary is one of the leading developers in the MotoCMS team. She implements her amazing ideas that help improve our products and make our CMS more convenient for all users.", require('../../utils/images/chico.png').default],
+        member2:["Maria Correal", "soy un gran desarrollador y diseñador", require('../../utils/images/chico2.png').default]
+    }
+
+
+
+
+    // {nombre:"Juan",apellido:"carlos", foto:require('../../utils/images/chico.png').default},{nombre:"Corredor", apellido:"camargo",foto:require('../../utils/images/chico2.png').default}
