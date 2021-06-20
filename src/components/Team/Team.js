@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+
 
 import {ContainerTeam,
         CardTeam,
@@ -93,7 +93,7 @@ const Team = ({
                 <ContainerPhoto photo={member1[3]} desbordePhoto={desbordePhoto[0]}/>
                 </CardImage>
             </CardTeam>
-            <CardTeam imgStart={imgStart}>
+            <CardTeam imgStart={imgStart} desbordePhoto={desbordePhoto[2]}>
                 <CardTeamText >
                     <h2>{member1[0]}</h2>
                     <h4>{member1[1]}</h4>
@@ -111,7 +111,7 @@ const Team = ({
                     <p>{member1[2]}</p>
                 </CardTeamText>
                 <CardImage desborde={desborde[0]} back={back} >
-                <ContainerPhoto photo={member1[3]} desbordePhoto={desbordePhoto[1]}/>
+                <ContainerPhoto photo={member1[3]} desbordePhoto={desbordePhoto[1]} />
                 </CardImage>
             </CardTeam>
 
