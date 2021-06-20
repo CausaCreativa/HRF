@@ -32,23 +32,22 @@ justify-content: flex-end;
 
 export const CardTeam = styled.div`
 display: flex;
-position: relative;
 flex-direction: ${props => props.imgStart};
 width: 100%;
 height: auto;
-padding: 5% 0;
-justify-content: space-around;
+padding: 2% 0;
 border: 2px solid red;
 `;
 
 export const CardTeamText = styled.div`
 display:flex;
-width: 60%;
+width: 70%;
 height: auto;
 border: 2px solid red;
 justify-content: flex-start;
 flex-direction: column;
-padding: 10% 12%;
+margin: 0;
+padding: 9% 8%;
     & h2 {
         font-size: 40px;
         padding-top:40px;
@@ -84,19 +83,25 @@ export const CardImage = styled.div`
 display: flex;
 position: relative;
 width: 50%;
+background-image: url(${props=>props.back});
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
 ${props=>props.desborde}
 border: 2px solid green;
-border-radius: 100%;
-background-color: #0C4F9C;
 `;
 
-
-export const ContainerPhoto = styled.div`
+export const ContainerPhoto =styled.div`
 display: flex;
-position: relative;
-width: 50%;
-${props=>props.desborde}
-background-image: url('${props => props.photo}');
+position: absolute;
+width: 60%;
+height: 60%;
+background-image: url(${props=>props.photo});
+background-position: center;
+background-repeat: no-repeat;
+background-size: auto;
 border: 2px solid green;
+${props=>props.desborde}
 `;
+
 
