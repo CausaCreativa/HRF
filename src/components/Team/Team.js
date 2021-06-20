@@ -7,7 +7,8 @@ import {ContainerTeam,
         ContainerTitle,
         CardImage,
         ContainerIcon,
-        IconImg
+        IconImg,
+        ContainerPhoto
 
 } from './Team.elements'
 
@@ -17,7 +18,7 @@ const Team = ({
     imgStart,
     member1,
     Icon,
-    desborde
+    desborde, back
 }) => {
     return (
         <>
@@ -42,12 +43,54 @@ const Team = ({
                     </ContainerIcon>
                     <p>{member1[2]}</p>
                 </CardTeamText>
-                <CardImage desborde={desborde[1]}>
-
+                <CardImage desborde={desborde[1]} back={back}>
+                    <ContainerPhoto photo={member1[3]} desborde={desborde[0]}/>
                 </CardImage>
             </CardTeam>
 
 
+            <CardTeam >
+                <CardTeamText >
+                    <h2>{member1[0]}</h2>
+                    <h4>{member1[1]}</h4>
+                    <ContainerIcon>
+                        <a href="https://google.com">
+                            <IconImg src={Icon[0]} />
+                        </a>
+                        <a href="https://google.com">
+                            <IconImg src={Icon[1]} />
+                        </a>
+                        <a href="https://google.com">
+                            <IconImg src={Icon[2]} />
+                        </a>
+                    </ContainerIcon>
+                    <p>{member1[2]}</p>
+                </CardTeamText>
+                <CardImage desborde={desborde[0]} back={back} >
+                <ContainerPhoto photo={member1[3]}desborde={desborde[1]}/>
+                </CardImage>
+            </CardTeam>
+            <CardTeam imgStart={imgStart[1]}>
+                <CardTeamText >
+                    <h2>{member1[0]}</h2>
+                    <h4>{member1[1]}</h4>
+                    <ContainerIcon>
+                        <a href="https://google.com">
+                            <IconImg src={Icon[0]} />
+                        </a>
+                        <a href="https://google.com">
+                            <IconImg src={Icon[1]} />
+                        </a>
+                        <a href="https://google.com">
+                            <IconImg src={Icon[2]} />
+                        </a>
+                    </ContainerIcon>
+                    <p>{member1[2]}</p>
+                </CardTeamText>
+                <CardImage desborde={desborde[1]} back={back} >
+                <ContainerPhoto photo={member1[3]} desborde={desborde[1]}/>
+                </CardImage>
+            </CardTeam>
             <CardTeam imgStart={imgStart}>
                 <CardTeamText >
                     <h2>{member1[0]}</h2>
@@ -65,50 +108,8 @@ const Team = ({
                     </ContainerIcon>
                     <p>{member1[2]}</p>
                 </CardTeamText>
-                <CardImage desborde={desborde[0]} >
-
-                </CardImage>
-            </CardTeam>
-            <CardTeam imgStart={imgStart}>
-                <CardTeamText >
-                    <h2>{member1[0]}</h2>
-                    <h4>{member1[1]}</h4>
-                    <ContainerIcon>
-                        <a href="https://google.com">
-                            <IconImg src={Icon[0]} />
-                        </a>
-                        <a href="https://google.com">
-                            <IconImg src={Icon[1]} />
-                        </a>
-                        <a href="https://google.com">
-                            <IconImg src={Icon[2]} />
-                        </a>
-                    </ContainerIcon>
-                    <p>{member1[2]}</p>
-                </CardTeamText>
-                <CardImage>
-
-                </CardImage>
-            </CardTeam>
-            <CardTeam imgStart={imgStart}>
-                <CardTeamText >
-                    <h2>{member1[0]}</h2>
-                    <h4>{member1[1]}</h4>
-                    <ContainerIcon>
-                        <a href="https://google.com">
-                            <IconImg src={Icon[0]} />
-                        </a>
-                        <a href="https://google.com">
-                            <IconImg src={Icon[1]} />
-                        </a>
-                        <a href="https://google.com">
-                            <IconImg src={Icon[2]} />
-                        </a>
-                    </ContainerIcon>
-                    <p>{member1[2]}</p>
-                </CardTeamText>
-                <CardImage>
-
+                <CardImage desborde={desborde[0]} back={back} >
+                <ContainerPhoto photo={member1[3]} desborde={desborde[1]}/>
                 </CardImage>
             </CardTeam>
 

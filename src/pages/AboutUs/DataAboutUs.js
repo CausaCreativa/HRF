@@ -14,7 +14,8 @@ export const heroAbautUs = {
         require('../../utils/images/Svg_quisomos_6.svg').default,
     ],
     imgStart:["row","row-reverse"],
-    desborde:["left:15%;","right:15%;"]
+    desborde:["left:10%;","right:9%;"],
+    back:require('../../utils/images/circle.svg').default
 }
     export const ImageAbautUsComponent = {
         pic:require('../../utils/images/ImageAbautUsComponent.jpg').default
@@ -22,7 +23,7 @@ export const heroAbautUs = {
     export const  TeamData ={
         Icon:[require('../../utils/images/facebook.svg').default,
                  require('../../utils/images/facebook.svg').default],
-        member1:["JUAN PABLO CORREDOR","Desarrollador", "Mary is one of the leading developers in the MotoCMS team. She implements her amazing ideas that help improve our products and make our CMS more convenient for all users.", require('../../utils/images/chico.png').default],
+        member1:["JUAN PABLO CORREDOR","Desarrollador", "Mary is one of the leading developers in the MotoCMS team. She implements her amazing ideas that help improve our products and make our CMS more convenient for all users.", require('../../utils/images/memberTeam.svg').default],
         member2:["Maria Correal", "soy un gran desarrollador y diseñador", require('../../utils/images/chico2.png').default]
     }
 
