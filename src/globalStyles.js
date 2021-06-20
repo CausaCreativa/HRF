@@ -55,6 +55,30 @@ export const GlobalStyle = createGlobalStyle`
             margin: 0px 0px;
         }
     }
+    .span_service50{
+        width: 50%;
+        margin: 10px 192px;
+    }
+    .span_service100{
+        width: 100%;
+        margin: 10px 37%;
+    }
+    .modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width:100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        z-index: 999999999999;
+      }
+      .display-block {
+        display: block;
+      }
+      
+      .display-none {
+        display: none;
+      }
 `;
 
 
