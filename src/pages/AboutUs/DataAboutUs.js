@@ -14,7 +14,7 @@ export const heroAbautUs = {
         require('../../utils/images/Svg_quisomos_6.svg').default,
     ],
     imgStart:["row","row-reverse"],
-    desborde:["left:10%;","right:9%;"],
+    desborde:["left:9%;","right:9%;"],
     back:require('../../utils/images/circle.svg').default
 }
     export const ImageAbautUsComponent = {

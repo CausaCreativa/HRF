@@ -2,6 +2,8 @@ import styled from 'styled-components'
 
 export const ContainerTeam=styled.div`
 display: flex;
+position: relative;
+overflow: hidden;
 width: 100%;
 height: auto;
 background-image: url(${props => props.Background});
@@ -95,11 +97,11 @@ export const ContainerPhoto =styled.div`
 display: flex;
 position: absolute;
 width: 60%;
-height: 60%;
+height: auto;
 background-image: url(${props=>props.photo});
 background-position: center;
 background-repeat: no-repeat;
-background-size: auto;
+background-size: contain;
 border: 2px solid green;
 ${props=>props.desborde}
 `;

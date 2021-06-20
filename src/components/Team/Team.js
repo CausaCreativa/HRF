@@ -67,7 +67,7 @@ const Team = ({
                     <p>{member1[2]}</p>
                 </CardTeamText>
                 <CardImage desborde={desborde[0]} back={back} >
-                <ContainerPhoto photo={member1[3]}desborde={desborde[1]}/>
+                <ContainerPhoto photo={member1[3]} desborde={desborde[1]}/>
                 </CardImage>
             </CardTeam>
             <CardTeam imgStart={imgStart[1]}>
