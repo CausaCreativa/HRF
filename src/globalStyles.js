@@ -2,6 +2,7 @@ import  {createGlobalStyle} from 'styled-components'
 import PrimaryFont from './utils/fonts/Roboto.woff';
 import SecondaryFont from './utils/fonts/Spectral-Light.woff';
 import Third  from './utils/fonts/Hind-Light.woff'
+import Play from  './utils/fonts/PlayfairDisplaySC-Regular.ttf'
 import styled from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
@@ -25,6 +26,10 @@ export const GlobalStyle = createGlobalStyle`
         font-family:'Hind';
         src: local('Hind'), url(${Third}) format('woff');
         font-style:normal;
+    }
+    @font-face {
+        font-family: 'Play';
+        src: local('Play'),url(${Play}) format('ttf');
     }
     .button{
         border-radius: 15px;
