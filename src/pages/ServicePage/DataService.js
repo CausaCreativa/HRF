@@ -12,6 +12,9 @@ export const BackgroundService2 = {
 export const BackgroundService3 = {
     Background:require('../../utils/images/Svg_Services_3.svg').default
 };
+export const BackgroundServiceModal = {
+    Background:require('../../utils/images/Svg_Modal.svg').default
+};
 export const Servicio1 = {
     pic: require('../../utils/images/service1.jpg').default,
     text:'ASESORIA Y CONSULTORIA EN CONTABILIDAD, FINANZAS Y TRIBUTARIA',

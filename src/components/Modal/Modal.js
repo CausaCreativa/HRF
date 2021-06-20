@@ -1,21 +1,29 @@
 //import './modal.css';
-import {ModalMain,CloseButton,ModalBody,ModalHead,Title} from './Modal.elements'
+import {ModalMain,CloseButton,ModalBody,ModalHead,Title,BackgroundModal,ContainerBackgroundModal} from './Modal.elements'
 import { ComponentsModal } from '../'
+import { BackgroundServiceModal } from "../../pages/ServicePage/DataService"
 
 const Modal = ({ handleClose, show,title, data }) => {
   const showHideClassName = show ? "modal display-block" : "modal display-none";
 
   return (
     <div className={showHideClassName}>
+      
       <ModalMain>
-        <ModalHead>
-          <CloseButton onClick={handleClose}>X</CloseButton>
-        </ModalHead>
-        <ModalBody>
-          <Title>{title}</Title>
-          <ComponentsModal {...data}></ComponentsModal>
-        </ModalBody>
-      </ModalMain>
+      <ContainerBackgroundModal>
+      <BackgroundModal {...BackgroundServiceModal}>
+          <ModalHead>
+            <CloseButton onClick={handleClose}>X</CloseButton>
+          </ModalHead>
+          <ModalBody>
+            <Title>{title}</Title>
+            <ComponentsModal {...data}></ComponentsModal>
+          </ModalBody>
+          </BackgroundModal>
+      </ContainerBackgroundModal>
+        </ModalMain>
+     
+      
     </div>
   );
 };

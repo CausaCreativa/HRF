@@ -1,5 +1,21 @@
 import styled from 'styled-components'
 
+export const ContainerBackgroundModal = styled.div`
+    height: 401px;
+    position: relative;
+`;
+
+export const BackgroundModal = styled.div`
+    background-image:url(${ props => props.Background});
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+`;
+
+
 export const ModalMain = styled.section`
     position:fixed;
     background: white;

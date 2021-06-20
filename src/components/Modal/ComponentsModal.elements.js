@@ -9,11 +9,12 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 flex-wrap: wrap;
+margin: 70px 54px;
 `;
 export const Image = styled.img`
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     margin: 20px;
     background-image:url(${ props => props.pic});
     background-position: center;
