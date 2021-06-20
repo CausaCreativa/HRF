@@ -18,7 +18,9 @@ const Team = ({
     imgStart,
     member1,
     Icon,
-    desborde, back
+    desborde, 
+    back,
+    desbordePhoto
 }) => {
     return (
         <>
@@ -44,7 +46,7 @@ const Team = ({
                     <p>{member1[2]}</p>
                 </CardTeamText>
                 <CardImage desborde={desborde[1]} back={back}>
-                    <ContainerPhoto photo={member1[3]} desborde={desborde[0]}/>
+                    <ContainerPhoto photo={member1[3]} desbordePhoto={desbordePhoto[0]}/>
                 </CardImage>
             </CardTeam>
 
@@ -67,7 +69,7 @@ const Team = ({
                     <p>{member1[2]}</p>
                 </CardTeamText>
                 <CardImage desborde={desborde[0]} back={back} >
-                <ContainerPhoto photo={member1[3]} desborde={desborde[1]}/>
+                <ContainerPhoto photo={member1[3]} desbordePhoto={desbordePhoto[1]}/>
                 </CardImage>
             </CardTeam>
             <CardTeam imgStart={imgStart[1]}>
@@ -88,7 +90,7 @@ const Team = ({
                     <p>{member1[2]}</p>
                 </CardTeamText>
                 <CardImage desborde={desborde[1]} back={back} >
-                <ContainerPhoto photo={member1[3]} desborde={desborde[1]}/>
+                <ContainerPhoto photo={member1[3]} desbordePhoto={desbordePhoto[0]}/>
                 </CardImage>
             </CardTeam>
             <CardTeam imgStart={imgStart}>
@@ -109,7 +111,7 @@ const Team = ({
                     <p>{member1[2]}</p>
                 </CardTeamText>
                 <CardImage desborde={desborde[0]} back={back} >
-                <ContainerPhoto photo={member1[3]} desborde={desborde[1]}/>
+                <ContainerPhoto photo={member1[3]} desbordePhoto={desbordePhoto[1]}/>
                 </CardImage>
             </CardTeam>
 

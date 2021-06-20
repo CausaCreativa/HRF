@@ -96,14 +96,15 @@ border: 2px solid green;
 export const ContainerPhoto =styled.div`
 display: flex;
 position: absolute;
-width: 60%;
-height: auto;
+width: 55%;
+height: 50%;
 background-image: url(${props=>props.photo});
 background-position: center;
 background-repeat: no-repeat;
 background-size: contain;
 border: 2px solid green;
-${props=>props.desborde}
+${props=>props.desbordePhoto}
+top: 25%;
 `;
 
 

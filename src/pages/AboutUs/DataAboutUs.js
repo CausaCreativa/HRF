@@ -15,6 +15,7 @@ export const heroAbautUs = {
     ],
     imgStart:["row","row-reverse"],
     desborde:["left:9%;","right:9%;"],
+    desbordePhoto:["left:40%;","right:40%;"],
     back:require('../../utils/images/circle.svg').default
 }
     export const ImageAbautUsComponent = {
