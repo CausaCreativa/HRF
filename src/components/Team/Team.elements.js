@@ -84,12 +84,19 @@ export const CardImage = styled.div`
 display: flex;
 position: relative;
 width: 50%;
-
 ${props=>props.desborde}
-
 border: 2px solid green;
 border-radius: 100%;
 background-color: #0C4F9C;
 `;
 
+
+export const ContainerPhoto = styled.div`
+display: flex;
+position: relative;
+width: 50%;
+${props=>props.desborde}
+background-image: url('${props => props.photo}');
+border: 2px solid green;
+`;
 
