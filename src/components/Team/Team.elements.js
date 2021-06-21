@@ -27,7 +27,7 @@ justify-content: flex-end;
 
         & h1{
             margin-right: 10%;
-            color: #0C4F9C;
+            color: #0d2e67;
         }
 
 `;
