@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+
 
 export const heroContact = {
     hero: require('../../utils/images/HeroContact.jpg').default,

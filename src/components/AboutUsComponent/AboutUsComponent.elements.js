@@ -68,6 +68,7 @@ export const Text2 = styled.p`
 export const Title = styled.h1`
     color: white;
     margin-left: 50px;
+    font-size: 50px;
 `
 
 export const ContainerBackgroundTop = styled.div`

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 
 export const Plan = styled.div`
-    width: 50%;
+    
     padding: 0px 15%;
     text-align: center;
 `;

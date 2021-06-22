@@ -11,7 +11,6 @@ width: 100%;
 display: flex;
 flex-direction:column;
 align-items: center;
-
 font-weight:1.2rem;
 padding-bottom:20px;
 `;

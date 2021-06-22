@@ -7,18 +7,26 @@ export const heroAbautUs = {
         viewHeight:43
     };
 
-    export const BackgroundAboutUsOne = {
-        Background:require('../../utils/images/Svg_quisomos_2.svg').default
-    };
-    export const BackgroundAboutUsTwo = {
-        Background:require('../../utils/images/Svg_quisomos_3.svg').default
-    };
-    export const BackgroundAboutUsThree = {
-        Background:require('../../utils/images/Svg_quisomos_4.svg').default
-    };
-    export const BackgroundAboutUsFour = {
-        Background:require('../../utils/images/Svg_quisomos_6.svg').default
-    };
+    export const BackgroundAboutUs = {
+        Background:[require('../../utils/images/Svg_quisomos_2.svg').default,
+        require('../../utils/images/Svg_quisomos_3.svg').default,
+        require('../../utils/images/Svg_quisomos_4.svg').default,
+        require('../../utils/images/Svg_quisomos_6.svg').default,
+    ],
+    imgStart:["row","row-reverse"],
+    desborde:["left:9%;","right:9%;"],
+    desbordePhoto:["left:40%;","right:40%;"],
+    back:require('../../utils/images/circle.svg').default
+}
     export const ImageAbautUsComponent = {
         pic:require('../../utils/images/ImageAbautUsComponent.jpg').default
     };
+    export const  TeamData ={
+        Icon:[require('../../utils/images/facebook.svg').default,require('../../utils/images/facebook.svg').default],
+        member1:["JUAN PABLO CORREDOR","Prosefesion","Subdivision",["servicio1", "servicio2", "servicio3"],  "Mary is one of the leading developers in the MotoCMS team. She implements her amazing ideas that help improve our products and make our CMS more convenient for all users.", require('../../utils/images/memberTeam.svg').default]
+    }
+
+
+
+
+    // {nombre:"Juan",apellido:"carlos", foto:require('../../utils/images/chico.png').default},{nombre:"Corredor", apellido:"camargo",foto:require('../../utils/images/chico2.png').default}

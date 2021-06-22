@@ -1,8 +1,8 @@
-import  {createGlobalStyle} from 'styled-components'
+import   styled,{createGlobalStyle} from 'styled-components'
 import PrimaryFont from './utils/fonts/Roboto.woff';
 import SecondaryFont from './utils/fonts/Spectral-Light.woff';
-import Third  from './utils/fonts/Hind-Light.woff'
-import styled from 'styled-components'
+import Third  from './utils/fonts/Hind-Light.woff';
+import PlayFont from  './utils/fonts/PlayfairDisplaySC-Regular.ttf';
 
 export const GlobalStyle = createGlobalStyle`
 *{
@@ -25,6 +25,11 @@ export const GlobalStyle = createGlobalStyle`
         font-family:'Hind';
         src: local('Hind'), url(${Third}) format('woff');
         font-style:normal;
+    }
+    @font-face {
+        font-family: 'Play';
+        src: local('Play'),url(${PlayFont}) format('ttf');
+        font-style: normal;
     }
     .button{
         border-radius: 15px;
@@ -55,6 +60,30 @@ export const GlobalStyle = createGlobalStyle`
             margin: 0px 0px;
         }
     }
+    .span_service50{
+        width: 50%;
+        margin: 10px 192px;
+    }
+    .span_service100{
+        width: 100%;
+        margin: 10px 37%;
+    }
+    .modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width:100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        z-index: 999999999999;
+      }
+      .display-block {
+        display: block;
+      }
+      
+      .display-none {
+        display: none;
+      }
 `;
 
 
