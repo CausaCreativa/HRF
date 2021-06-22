@@ -1,44 +1,81 @@
 import styled from 'styled-components'
 
-export const Title = styled.h1`
-margin-top: 15vh;
-margin-left: 80px;
-color: #0d2e67;
-font-size: 100px;
-`;
-export const ContainerBackgroundTop = styled.div`
 
-height: 625px;
+export const ContainerValues=styled.div`
+display: flex;
 position: relative;
-@media screen and (max-width: 1900px){
-    height: 1997px
-}
-@media screen and (max-width: 1400px){
-    height: 488px;
-}
-@media screen and (max-width: 1300px){
-    height: 356px;
-}
-@media screen and (max-width: 900px){
-    height: 313px;
-}
-@media screen and (max-width: 800px){
-    height: 267px;
-}
-@media screen and (max-width: 480px){
-    height: 168px;
-}
-@media screen and (max-width: 460px){
-    height: 144px
-}
+width: 100%;
+height: auto;
+background-image: url(${props => props.Background});
+background-position:bottom;
+background-repeat: no-repeat;
+background-size:cover;
+object-fit: cover;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border: 1px solid red;
 `;
-export const BackgroundTop = styled.div`
-background-image:url(${ props => props.Background});
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: -2.5%;
+
+export const ContainerTitle = styled.div`
+display: flex;
+width: 100%;
+height: auto;
+font-family: 'Spectral';
+font-size: 50px;
+color: white;
+justify-content: flex-start;
+
+
+        & h1{
+            position: relative;
+            left: 10%;
+            color: White;
+        }
+
+`;
+
+export const ContainerLogo = styled.div`
+position: absolute;
+justify-content: center;
+right: 50%;
+background-image: url(${props => props.IconValues});
+
+`; 
+
+export const SectionValues =styled.div`
+display: flex;
+width: 100%;
+height: auto;
+display: flex;
+margin: 5% 0;
+position: relative;
+
+`;
+
+export const ValuesIcon= styled.div`
+display: flex;
+border: 2px solid green ;
+position: relative;
+width: 160px;
+height: auto;
+background-image: url(${props => props.IconValues});
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+object-fit: contain;
+${props=>props.desbordeIcon}
+`;
+
+export const ValuesContainer= styled.div`
+width: 260px;
+height: 260px;
+border-radius: 50%;
+border: 2px solid blue;
+background-image: url(${props => props.ValuesHRF});
+background-position: center;
+background-repeat: no-repeat;
+background-size: auto;
+position: relative;
+${props=>props.desbordeValues}
 `;

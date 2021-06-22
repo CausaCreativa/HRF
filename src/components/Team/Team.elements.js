@@ -27,7 +27,7 @@ justify-content: flex-end;
 
         & h1{
             margin-right: 10%;
-            color: #0C4F9C;
+            color: #0d2e67;
         }
 
 `;
@@ -38,14 +38,14 @@ flex-direction: ${props => props.imgStart};
 width: 100%;
 height: auto;
 padding: 2% 0;
-border: 2px solid red;
+${props=>props.desbordePhoto}
 `;
 
 export const CardTeamText = styled.div`
 display:flex;
 width: 70%;
 height: auto;
-border: 2px solid red;
+
 justify-content: flex-start;
 flex-direction: column;
 margin: 0;
@@ -90,7 +90,7 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: contain;
 ${props=>props.desborde}
-border: 2px solid green;
+
 `;
 
 export const ContainerPhoto =styled.div`
@@ -102,7 +102,6 @@ background-image: url(${props=>props.photo});
 background-position: center;
 background-repeat: no-repeat;
 background-size: contain;
-border: 2px solid green;
 ${props=>props.desbordePhoto}
 top: 25%;
 `;
