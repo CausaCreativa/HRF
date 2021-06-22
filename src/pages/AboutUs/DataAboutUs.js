@@ -22,7 +22,11 @@ export const heroAbautUs = {
     };
     export const  TeamData ={
         Icon:[require('../../utils/images/facebook.svg').default,require('../../utils/images/facebook.svg').default],
-        member1:["JUAN PABLO CORREDOR","Prosefesion","Subdivision",["servicio1", "servicio2", "servicio3"],  "Mary is one of the leading developers in the MotoCMS team. She implements her amazing ideas that help improve our products and make our CMS more convenient for all users.", require('../../utils/images/memberTeam.svg').default]
+        member1:["ERIKA FORERO RODRIGUEZ","Contadora Pública - Especialista en Gerencia estratégica de negocios","Auditoría, Revisoría fiscal e Interventoría",[" Aseguramiento de la información financiera y tributaria histórica", " Revisoría Fiscal", " Interventoría de cuentas "],  require('../../utils/images/memberTeam.svg').default],
+        member2:["JHON RODRIGUEZ BRICEÑO","Profesión:Contadora Público / Abogado - Especialista en Gerencia Tributaria","Consultoría legal y tributaria",["Asesoría y consultoría legal y contractual", "Estudio de caso y diagnóstico tributario", "Diseño de modelos legales y tributarios de operación diagnóstica."],  require('../../utils/images/memberTeam.svg').default],
+        member3:["JOHANA PEÑA HERNÁNDEZ","Contadora Pública / Psicóloga - Especialista en Ciencias Tributarias","Outsourcing Contable",["Procesamiento de información contable", "Generación de Estados Financieros", "Reportes a entidades gubernamentales"], require('../../utils/images/memberTeam.svg').default],
+        member4:["JOSÉ ANDRÉS CASTRO","Abogado / Economista - Magíster en Derecho administrativo","Defensa jurídica",["Procesos legales", "Litigios en derecho disciplinario y contable", " "], require('../../utils/images/memberTeam.svg').default],
+
     }
     export const desbordes = {
         desborde:["left:9%;","right:9%;"],
