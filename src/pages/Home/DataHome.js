@@ -15,6 +15,23 @@ export const homeObjOne = {
         vector: require('../../utils/images/Svg_Home_2.svg').default
     }
 
+<<<<<<< HEAD
+    export const Facebook = {
+        Background:'#3b5998',
+        Image: require('../../utils/images/font_network/fb.png').default
+    }
+    export const Twitter = {
+        Background:'#00acee',
+        Image: require('../../utils/images/font_network/fb.png').default
+    }
+    export const instagram = {
+        Background:'linear-gradient(225deg, #515bd4, #8134af, #dd2a7b, #feda77, #f58529)',
+        Image: require('../../utils/images/font_network/fb.png').default
+    }
+    export const Whatsapp = {
+        Background:'#00bb2d',
+        Image: require('../../utils/images/font_network/fb.png').default
+=======
     export const dataCustomer = {
         vector: require('../../utils/images/Svg_Home_3.svg').default,
         imagen: require('../../utils/images/clietnes.jpg').default,
@@ -24,4 +41,5 @@ export const homeObjOne = {
                 require('../../utils/images/eru_1.png').default,
                 require('../../utils/images/RTVC.png').default,
                 require('../../utils/images/mov.png').default]
+>>>>>>> main
     }

@@ -13,4 +13,8 @@ export { default as AboutUsComponent } from './AboutUsComponent/AboutUsComponent
 export { default as OrganizationalDNA } from './OrganizationalDNA/OrganizationalDNA'
 export { default as Values } from './Values/Values'
 export { default as Team } from './Team/Team'
+<<<<<<< HEAD
+export { default as MenuNetworks } from './menuNetworks/menuNetworks'
+=======
 export { default as ComponentsModal } from './Modal/ComponentsModal'
+>>>>>>> main
