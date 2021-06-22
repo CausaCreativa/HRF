@@ -14,3 +14,20 @@ export const homeObjOne = {
     export const dataInfoHome = {
         vector: require('../../utils/images/Svg_Home_2.svg').default
     }
+
+    export const Facebook = {
+        Background:'#3b5998',
+        Image: require('../../utils/images/font_network/fb.png').default
+    }
+    export const Twitter = {
+        Background:'#00acee',
+        Image: require('../../utils/images/font_network/fb.png').default
+    }
+    export const instagram = {
+        Background:'linear-gradient(225deg, #515bd4, #8134af, #dd2a7b, #feda77, #f58529)',
+        Image: require('../../utils/images/font_network/fb.png').default
+    }
+    export const Whatsapp = {
+        Background:'#00bb2d',
+        Image: require('../../utils/images/font_network/fb.png').default
+    }
