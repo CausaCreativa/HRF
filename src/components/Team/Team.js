@@ -108,7 +108,11 @@ const Team = ({
                             <IconImg src={Icon[2]} />
                         </a>
                     </ContainerIcon>
-                    <p>{member1[2]}</p>
+                    <ul>
+                        <li> {member1[3][0]}</li>
+                        <li> {member1[3][1]}</li>
+                        <li> {member1[3][2]}</li>
+                    </ul>
                 </CardTeamText>
                 <CardImage desborde={desborde[0]} back={back} >
                 <ContainerPhoto photo={member1[3]} desbordePhoto={desbordePhoto[1]}/>

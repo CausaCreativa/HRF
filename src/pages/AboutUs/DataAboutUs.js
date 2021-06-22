@@ -22,10 +22,8 @@ export const heroAbautUs = {
         pic:require('../../utils/images/ImageAbautUsComponent.jpg').default
     };
     export const  TeamData ={
-        Icon:[require('../../utils/images/facebook.svg').default,
-                 require('../../utils/images/facebook.svg').default],
-        member1:["JUAN PABLO CORREDOR","Desarrollador", "Mary is one of the leading developers in the MotoCMS team. She implements her amazing ideas that help improve our products and make our CMS more convenient for all users.", require('../../utils/images/memberTeam.svg').default],
-        member2:["Maria Correal", "soy un gran desarrollador y diseñador", require('../../utils/images/chico2.png').default]
+        Icon:[require('../../utils/images/facebook.svg').default,require('../../utils/images/facebook.svg').default],
+        member1:["JUAN PABLO CORREDOR","Prosefesion","Subdivision",["servicio1", "servicio2", "servicio3"],  "Mary is one of the leading developers in the MotoCMS team. She implements her amazing ideas that help improve our products and make our CMS more convenient for all users.", require('../../utils/images/memberTeam.svg').default]
     }
 
 
