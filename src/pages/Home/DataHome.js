@@ -21,15 +21,15 @@ export const homeObjOne = {
     }
     export const Twitter = {
         Background:'#00acee',
-        Image: require('../../utils/images/font_network/fb.png').default
+        Image: require('../../utils/images/font_network/twitter.png').default
     }
     export const instagram = {
         Background:'linear-gradient(225deg, #515bd4, #8134af, #dd2a7b, #feda77, #f58529)',
-        Image: require('../../utils/images/font_network/fb.png').default
+        Image: require('../../utils/images/font_network/instagram.png').default
     }
     export const Whatsapp = {
         Background:'#00bb2d',
-        Image: require('../../utils/images/font_network/fb.png').default
+        Image: require('../../utils/images/font_network/whatsapp.png').default
     }
     export const dataCustomer = {
         vector: require('../../utils/images/Svg_Home_3.svg').default,

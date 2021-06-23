@@ -34,13 +34,14 @@ width: 25px;
 height: 25px;
 position: relative;
 `;
-export const FontAwesomeIcon = styled.svg`
-height : "22px"; 
-width : "22px"; 
-display : "flex";
-justifyContent : 'center';
-`;
 
+export const ContainerIcon = styled.div`
+height: 30px;
+width: 30px;
+position: relative;
+top: -15px;
+left: -15px;
+`;
 export const Icon = styled.div`
 background-image:url(${ props => props.Image});
 background-position: center;
@@ -49,6 +50,9 @@ background-size: 100% 100%;
 width: 100%;
 height: 100%;
 position: absolute;
+
+border-radius: 50%;
+
 `;
 export const MenuNetworksElements = styled.div`
 

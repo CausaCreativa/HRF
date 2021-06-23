@@ -1,8 +1,7 @@
 import React from 'react';
-import { MenuNetworksElements, Social, MenuUl, MenuLI, MenuA } from './menuNetworks.elements';
+import { MenuNetworksElements, Social, MenuUl, MenuLI, MenuA, Icon, ContainerIcon} from './menuNetworks.elements';
 import { Facebook, Twitter, instagram, Whatsapp } from '../../pages/Home/DataHome';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook,  faTwitter, faInstagram, faWhatsapp} from '@fortawesome/free-brands-svg-icons';
+
 
 
 const MenuNetworks = () => {
@@ -12,24 +11,31 @@ const MenuNetworks = () => {
                 <Social>
                     <MenuUl>
                         <MenuLI>
-                            <MenuA {...Facebook} >
-                                <FontAwesomeIcon  icon = {faFacebook} style={{height:"22px", width:"22px", display:"flex", justifycontent:'center'}}> 
-                                </FontAwesomeIcon>
+                            <MenuA {...Facebook} class = "Icon">
+                                <ContainerIcon>
+                                <Icon  {...Facebook}> </Icon>
+                                </ContainerIcon>
                             </MenuA>
                         </MenuLI>
                         <MenuLI>
                             <MenuA {...Twitter} class = "Icon">
-                                <FontAwesomeIcon  icon = {faTwitter}> </FontAwesomeIcon>
+                            <ContainerIcon>
+                                <Icon  {...Twitter}> </Icon>
+                                </ContainerIcon>
                             </MenuA>
                         </MenuLI>
                         <MenuLI>
                             <MenuA {...instagram} class = "Icon">
-                                <FontAwesomeIcon  icon = {faInstagram}> </FontAwesomeIcon>
+                            <ContainerIcon>
+                                <Icon  {...instagram}> </Icon>
+                                </ContainerIcon>
                             </MenuA>
                         </MenuLI>
                         <MenuLI>
                             <MenuA {...Whatsapp} class = "Icon">
-                                <FontAwesomeIcon  icon = {faWhatsapp}></FontAwesomeIcon>
+                            <ContainerIcon>
+                                <Icon  {...Whatsapp}> </Icon>
+                                </ContainerIcon>
                             </MenuA>
                         </MenuLI>
                     </MenuUl>
