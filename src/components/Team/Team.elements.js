@@ -60,6 +60,10 @@ padding: 9% 8%;
         padding-top:20px;
         font-family: 'Roboto';
         }
+    & p{
+        font-size: 25px;
+        font-family: 'Hind';
+    }
     & ul {
         padding-top: 20px;
         font-family: 'Hind';
