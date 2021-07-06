@@ -15,10 +15,13 @@ function App() {
       <MenuNetworks></MenuNetworks>
       <Navbar />
       <Switch >
+      <Route path="/contact" excat component={Contact} />
+        <Route path="/HRF" exact component={Home} />
+        {/* path para corregir el link de github page  */}
         <Route path="/" exact component={Home} />
         <Route path="/aboutUs" excat component={AboutUs} />
         <Route path="/services" excat component={Service} />
-        <Route path="/contact" excat component={Contact} />
+        
       </Switch>
       <Footer />
     </Router>
