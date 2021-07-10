@@ -80,8 +80,8 @@ padding: 20px 0;
 justify-content: space-between;
 `;
 export const IconImg = styled.img`
-src: url('${props =>props.Icon}');
-width: 50px;
+width: 85px;
+margin: 0 25px;
 
 `;
 

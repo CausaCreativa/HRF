@@ -31,7 +31,7 @@ export const heroAbautUs = {
         pic:require('../../utils/images/ImageAbautUsComponent.jpg').default
     };
     export const  TeamData ={
-        Icon:[require('../../utils/images/facebook.svg').default,require('../../utils/images/facebook.svg').default],
+        Icon:[require('../../utils/images/Icon_SVG_Facebook.svg').default, require('../../utils/images/Icon_SVG_Linkdin.svg').default,require('../../utils/images/Icon_SVG_Twitter.svg').default],
         member1:["ERIKA FORERO RODRIGUEZ","Contadora Pública - Especialista en Gerencia estratégica de negocios","Soy bueno en acosatarme tarde, entregar sobnre el deadline, leer y comer hamburguesas de presto, de las que traen champiñones.",[" Aseguramiento de la información financiera y tributaria histórica", " Revisoría Fiscal", " Interventoría de cuentas "],  require('../../utils/images/memberTeam.svg').default],
         member2:["JHON RODRIGUEZ BRICEÑO","Contadora Público / Abogado - Especialista en Gerencia Tributaria","Consultoría legal y tributaria",["Asesoría y consultoría legal y contractual", "Estudio de caso y diagnóstico tributario", "Diseño de modelos legales y tributarios de operación diagnóstica."],  require('../../utils/images/memberTeam.svg').default],
         member3:["JOHANA PEÑA HERNÁNDEZ","Contadora Pública / Psicóloga - Especialista en Ciencias Tributarias","Outsourcing Contable",["Procesamiento de información contable", "Generación de Estados Financieros", "Reportes a entidades gubernamentales"], require('../../utils/images/memberTeam.svg').default],
