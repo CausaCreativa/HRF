@@ -28,7 +28,7 @@ const Team = ({
             <ContainerTitle>
         <h1> Team</h1>
             </ContainerTitle>
-            <CardTeam imgStart={imgStart} desbordePhoto={desbordePhoto[2]}>
+            <CardTeam imgStart={imgStart[1]} desbordePhoto >
                 <CardTeamText >
                     <h2>{member1[0]}</h2>
                     <h4>{member1[1]}</h4>
@@ -50,13 +50,13 @@ const Team = ({
                         <li> {member1[3][2]}</li>
                     </ul>
                 </CardTeamText>
-                <CardImage desborde={desborde[0]} back={back} >
-                <ContainerPhoto photo={member1[3]} desbordePhoto={desbordePhoto[1]} />
+                <CardImage desborde={desborde[1]} back={back} >
+                <ContainerPhoto photo={member1[4]} desbordePhoto={desbordePhoto[0]} />
                 </CardImage>
             </CardTeam>
 
 
-            <CardTeam >
+            <CardTeam imgStart={imgStart} desbordePhoto={desbordePhoto[1]}>
                 <CardTeamText >
                     <h2>{member1[0]}</h2>
                     <h4>{member1[1]}</h4>
@@ -74,7 +74,7 @@ const Team = ({
                     <p>{member1[2]}</p>
                 </CardTeamText>
                 <CardImage desborde={desborde[0]} back={back} >
-                <ContainerPhoto photo={member1[3]} desbordePhoto={desbordePhoto[1]}/>
+                <ContainerPhoto photo={member1[4]} desbordePhoto={desbordePhoto[1]}/>
                 </CardImage>
             </CardTeam>
             <CardTeam imgStart={imgStart[1]}>
@@ -95,7 +95,7 @@ const Team = ({
                     <p>{member1[2]}</p>
                 </CardTeamText>
                 <CardImage desborde={desborde[1]} back={back} >
-                <ContainerPhoto photo={member1[3]} desbordePhoto={desbordePhoto[0]}/>
+                <ContainerPhoto photo={member1[4]} desbordePhoto={desbordePhoto[0]}/>
                 </CardImage>
             </CardTeam>
             <CardTeam imgStart={imgStart} desbordePhoto={desbordePhoto[2]}>
@@ -120,7 +120,7 @@ const Team = ({
                     </ul>
                 </CardTeamText>
                 <CardImage desborde={desborde[0]} back={back} >
-                <ContainerPhoto photo={member1[3]} desbordePhoto={desbordePhoto[1]} />
+                <ContainerPhoto photo={member1[4]} desbordePhoto={desbordePhoto[1]} />
                 </CardImage>
             </CardTeam>
 

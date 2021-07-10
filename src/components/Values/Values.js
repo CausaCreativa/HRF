@@ -4,7 +4,7 @@ import {ContainerValues,
         ValuesContainer,
         ValuesIcon,
         SectionValues,
-        ContainerTitle
+        ContainerTitle,
     
     } from './Values.elements'
 
@@ -21,7 +21,8 @@ const Values = ({
 }) => {
     return (
         <>
-        <ContainerValues Background={Background[2]}>
+        <ContainerValues Background={Background[2]} >
+           <div  className="ii">
             <ContainerTitle>
                 <h1>
                     Valores
@@ -32,26 +33,25 @@ const Values = ({
                     <ValuesContainer ValuesHRF={ValuesHRF[0]} desbordeValues={desbordeValues[0]} />
             </SectionValues>
             <SectionValues>
-            <ValuesIcon IconValues={IconValues[0]} desbordeIcon={desbordeIcon[1]} />
-                    <ValuesContainer ValuesHRF={ValuesHRF[0]} desbordeValues={desbordeValues[1]} />
+            <ValuesIcon IconValues={IconValues[1]} desbordeIcon={desbordeIcon[1]} />
+                    <ValuesContainer ValuesHRF={ValuesHRF[1]} desbordeValues={desbordeValues[1]} />
             </SectionValues>
             <SectionValues>
-            <ValuesIcon IconValues={IconValues[0]} desbordeIcon={desbordeIcon[2]} />
-                    <ValuesContainer ValuesHRF={ValuesHRF[0]} desbordeValues={desbordeValues[2]} />
+            <ValuesIcon IconValues={IconValues[2]} desbordeIcon={desbordeIcon[2]} />
+                    <ValuesContainer ValuesHRF={ValuesHRF[2]} desbordeValues={desbordeValues[2]} />
             </SectionValues>
             <SectionValues>
-            <ValuesIcon IconValues={IconValues[0]} desbordeIcon={desbordeIcon[3]} />
-                    <ValuesContainer ValuesHRF={ValuesHRF[0]} desbordeValues={desbordeValues[3]} />
+            <ValuesIcon IconValues={IconValues[3]} desbordeIcon={desbordeIcon[3]} />
+                    <ValuesContainer ValuesHRF={ValuesHRF[3]} desbordeValues={desbordeValues[3]} />
             </SectionValues>
             <SectionValues>
-            <ValuesIcon IconValues={IconValues[0]} desbordeIcon={desbordeIcon[4]} />
-                    <ValuesContainer ValuesHRF={ValuesHRF[0]} desbordeValues={desbordeValues[4]} />
+            <ValuesIcon IconValues={IconValues[4]} desbordeIcon={desbordeIcon[4]} />
+                    <ValuesContainer ValuesHRF={ValuesHRF[4]} desbordeValues={desbordeValues[4]} />
             </SectionValues>
             <SectionValues>
-            <ValuesIcon IconValues={IconValues[0]} desbordeIcon={desbordeIcon[5]} />
-                    <ValuesContainer ValuesHRF={ValuesHRF[0]} desbordeValues={desbordeValues[5]} />
+                    <ValuesContainer ValuesHRF={ValuesHRF[5]} desbordeValues={desbordeValues[5]} />
             </SectionValues>
-            
+             </div>
         </ContainerValues>
         </>
     )

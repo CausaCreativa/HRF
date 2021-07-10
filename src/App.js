@@ -7,7 +7,6 @@ import Contact from './pages/Contact/Contact'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import {GlobalStyle} from './globalStyles'
 
-
 function App() {
   return (
     <Router>
@@ -17,11 +16,9 @@ function App() {
       <Switch >
       <Route path="/contact" excat component={Contact} />
         <Route path="/HRF" exact component={Home} />
-        {/* path para corregir el link de github page  */}
         <Route path="/" exact component={Home} />
         <Route path="/aboutUs" excat component={AboutUs} />
         <Route path="/services" excat component={Service} />
-        
       </Switch>
       <Footer />
     </Router>

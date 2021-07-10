@@ -14,8 +14,18 @@ export const heroAbautUs = {
         require('../../utils/images/Svg_quisomos_6.svg').default,],
         imgStart:["row","row-reverse"],
         back:require('../../utils/images/circle.svg').default,
-        IconValues:[require('../../utils/images/Icon1.svg').default],
-        ValuesHRF:[require('../../utils/images/Values1.svg').default]
+        IconValues:[require('../../utils/images/Icon1.svg').default,
+                    require('../../utils/images/Icon2.svg').default,
+                    require('../../utils/images/Icon3.svg').default,
+                    require('../../utils/images/Icon4.svg').default,
+                    require('../../utils/images/Icon5.svg').default,
+                ],
+        ValuesHRF:[require('../../utils/images/Value_svg_adaptabilidad.svg').default,
+        require('../../utils/images/Value_svg_coherencia.svg').default,
+        require('../../utils/images/Value_svg_compromiso.svg').default,
+        require('../../utils/images/Value_svg_integridad.svg').default,
+        require('../../utils/images/Value_svg_objetividad.svg').default,
+        require('../../utils/images/Value_svg_responsabilidad.svg').default,]
 }
     export const ImageAbautUsComponent = {
         pic:require('../../utils/images/ImageAbautUsComponent.jpg').default
@@ -31,7 +41,7 @@ export const heroAbautUs = {
     export const desbordes = {
         desborde:["left:9%;","right:9%;"],
         desbordePhoto:["left:40%;","right:40%;","margin-bottom: 20%;"],
-        desbordeValues:["left:45%;","left:30%","left:25%","left:20%","left:30%","left:45%"],
+        desbordeValues:["left:50%;","left:35%","left:30%","left:25%","left:35%","left:55%"],
         desbordeIcon:["left:25%; ","left:12%","left:10%","left:5%","left:10%","left:25%",]
 
     }
