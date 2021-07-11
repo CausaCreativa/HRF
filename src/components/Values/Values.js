@@ -16,8 +16,6 @@ const Values = ({
     ValuesHRF,
     desbordeValues,
     desbordeIcon,
-
-    
 }) => {
     return (
         <>

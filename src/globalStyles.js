@@ -99,4 +99,8 @@ padding-left:50px;
     padding-left:30px;
     padding-right:30px;
 }
+#adn{
+    background-color: aliceblue;
+    border: 1px solid red;
+}
 `;

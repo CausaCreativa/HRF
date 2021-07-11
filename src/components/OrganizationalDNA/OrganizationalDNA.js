@@ -1,5 +1,5 @@
 import React from 'react'
-import {ContainerBackgroundTop,BackgroundTop,Title} from './OrganizationalDNA.elements'
+import {Container, BackgroundTop} from './OrganizationalDNA.elements'
 
 
 
@@ -8,11 +8,11 @@ const OrganizationalDNA = ({
 }) => {
     return (
         <>
-            <ContainerBackgroundTop>
-                <BackgroundTop  Background={Background[1]}>
-                    <Title>ADN Organizacional</Title>
+            <Container>
+                <BackgroundTop Background={Background[0]}>
+
                 </BackgroundTop>
-            </ContainerBackgroundTop>
+            </Container>
         </>
     )
 }

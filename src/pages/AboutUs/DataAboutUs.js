@@ -8,7 +8,7 @@ export const heroAbautUs = {
     };
 
     export const BackgroundAboutUs = {
-        Background:[require('../../utils/images/Svg_quisomos_2.svg').default,
+        Background:[require('../../utils/images/SVG_ADN.svg').default,
         require('../../utils/images/Svg_quisomos_3.svg').default,
         require('../../utils/images/Svg_quisomos_4.svg').default,
         require('../../utils/images/Svg_quisomos_6.svg').default,],
