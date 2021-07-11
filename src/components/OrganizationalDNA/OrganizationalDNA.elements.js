@@ -2,20 +2,20 @@ import styled from 'styled-components'
 
 
 export const Container = styled.div`
-display: flex;
-flex-direction: column;
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 840px;
 width: 100%;
-height: 800px;
+height: auto;
 position: relative;
 border: 2px solid red;
 `;
 
-export const BackgroundTop = styled.div`
+export const BackgroundTop = styled.img`
     display: flex;
-    background-image:url(${ props => props.Background});
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
     width: 100%;
-    height: 100%;
-`;
+    height: auto;
+    background-position: center;
+    background-size: contain;
+    object-fit: cover;
+    `;

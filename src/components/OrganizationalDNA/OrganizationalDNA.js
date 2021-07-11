@@ -9,7 +9,7 @@ const OrganizationalDNA = ({
     return (
         <>
             <Container>
-                <BackgroundTop Background={Background[0]}>
+                <BackgroundTop src={Background[0]}>
 
                 </BackgroundTop>
             </Container>
