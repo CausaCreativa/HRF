@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.js": "/HRF/static/js/main.85a44ebe.chunk.js",
-    "main.js.map": "/HRF/static/js/main.85a44ebe.chunk.js.map",
+    "main.js": "/HRF/static/js/main.226f6700.chunk.js",
+    "main.js.map": "/HRF/static/js/main.226f6700.chunk.js.map",
     "runtime-main.js": "/HRF/static/js/runtime-main.2b4f9847.js",
     "runtime-main.js.map": "/HRF/static/js/runtime-main.2b4f9847.js.map",
     "static/js/2.ea7a702a.chunk.js": "/HRF/static/js/2.ea7a702a.chunk.js",
     "static/js/2.ea7a702a.chunk.js.map": "/HRF/static/js/2.ea7a702a.chunk.js.map",
     "index.html": "/HRF/index.html",
     "static/js/2.ea7a702a.chunk.js.LICENSE.txt": "/HRF/static/js/2.ea7a702a.chunk.js.LICENSE.txt",
+    "static/media/Bacground_ADN_SVG_1.svg": "/HRF/static/media/Bacground_ADN_SVG_1.09c2b593.svg",
     "static/media/Caprecom.png": "/HRF/static/media/Caprecom.a06a4ecb.png",
     "static/media/Fiduciariacentral.png": "/HRF/static/media/Fiduciariacentral.15b55a01.png",
     "static/media/HeroContact.jpg": "/HRF/static/media/HeroContact.6d2eafa7.jpg",
@@ -19,15 +20,12 @@
     "static/media/Icon4.svg": "/HRF/static/media/Icon4.d00a89a7.svg",
     "static/media/Icon5.svg": "/HRF/static/media/Icon5.ffbd0149.svg",
     "static/media/Icon_SVG_Facebook.svg": "/HRF/static/media/Icon_SVG_Facebook.5a6ac21f.svg",
-    "static/media/Icon_SVG_Linkdin.svg": "/HRF/static/media/Icon_SVG_Linkdin.719d3511.svg",
-    "static/media/Icon_SVG_Twitter.svg": "/HRF/static/media/Icon_SVG_Twitter.8fcd325e.svg",
     "static/media/ImageAbautUsComponent.jpg": "/HRF/static/media/ImageAbautUsComponent.36f4ccc8.jpg",
     "static/media/LogoFooter.446d533e.svg": "/HRF/static/media/LogoFooter.446d533e.svg",
     "static/media/LogoHeader.b39b6caf.svg": "/HRF/static/media/LogoHeader.b39b6caf.svg",
     "static/media/PlayfairDisplaySC-Regular.8a172651.ttf": "/HRF/static/media/PlayfairDisplaySC-Regular.8a172651.ttf",
     "static/media/RTVC.png": "/HRF/static/media/RTVC.088f5cf4.png",
     "static/media/Roboto.6eff52a4.woff": "/HRF/static/media/Roboto.6eff52a4.woff",
-    "static/media/SVG_ADN.svg": "/HRF/static/media/SVG_ADN.69c1055b.svg",
     "static/media/Service2.png": "/HRF/static/media/Service2.8513d961.png",
     "static/media/Service3.jpg": "/HRF/static/media/Service3.d71f4166.jpg",
     "static/media/Service4.jpg": "/HRF/static/media/Service4.6b0aadf8.jpg",
@@ -41,6 +39,7 @@
     "static/media/Svg_Services_2.svg": "/HRF/static/media/Svg_Services_2.787d56d1.svg",
     "static/media/Svg_Services_3.svg": "/HRF/static/media/Svg_Services_3.96f8d528.svg",
     "static/media/Svg_quisomos_1.svg": "/HRF/static/media/Svg_quisomos_1.ca964fb3.svg",
+    "static/media/Svg_quisomos_2.svg": "/HRF/static/media/Svg_quisomos_2.eeacad2e.svg",
     "static/media/Svg_quisomos_3.svg": "/HRF/static/media/Svg_quisomos_3.8a400929.svg",
     "static/media/Svg_quisomos_4.svg": "/HRF/static/media/Svg_quisomos_4.9f39e063.svg",
     "static/media/Svg_quisomos_6.svg": "/HRF/static/media/Svg_quisomos_6.509e622b.svg",
@@ -57,6 +56,7 @@
     "static/media/comercio-electronico.svg": "/HRF/static/media/comercio-electronico.e999aac5.svg",
     "static/media/heroImage.jpg": "/HRF/static/media/heroImage.ff5265f2.jpg",
     "static/media/instagram.png": "/HRF/static/media/instagram.a0aaa4a3.png",
+    "static/media/linkedin_2.svg": "/HRF/static/media/linkedin_2.5a7efc48.svg",
     "static/media/memberTeam.svg": "/HRF/static/media/memberTeam.a586b858.svg",
     "static/media/mov.png": "/HRF/static/media/mov.3acfb948.png",
     "static/media/nosotrosHome.jpg": "/HRF/static/media/nosotrosHome.0ab7f3dc.jpg",
@@ -64,6 +64,7 @@
     "static/media/svg_contact_1.svg": "/HRF/static/media/svg_contact_1.0c6e75b8.svg",
     "static/media/svg_contact_2.svg": "/HRF/static/media/svg_contact_2.538f6d07.svg",
     "static/media/svg_contact_3.svg": "/HRF/static/media/svg_contact_3.0605daff.svg",
+    "static/media/twitter.svg": "/HRF/static/media/twitter.5324a983.svg",
     "static/media/twitter.png": "/HRF/static/media/twitter.f6a8a6e7.png",
     "static/media/ubicacion.svg": "/HRF/static/media/ubicacion.dc86abc6.svg",
     "static/media/video.mp4": "/HRF/static/media/video.254ff1cd.mp4",
@@ -72,6 +73,6 @@
   "entrypoints": [
     "static/js/runtime-main.2b4f9847.js",
     "static/js/2.ea7a702a.chunk.js",
-    "static/js/main.85a44ebe.chunk.js"
+    "static/js/main.226f6700.chunk.js"
   ]
 }
