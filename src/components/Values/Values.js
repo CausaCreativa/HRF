@@ -19,7 +19,7 @@ const Values = ({
 }) => {
     return (
         <>
-        <ContainerValues Background={Background[2]} >
+        <ContainerValues Background={Background[3]} >
            <div  className="ii">
             <ContainerTitle>
                 <h1>

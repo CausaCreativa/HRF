@@ -24,7 +24,7 @@ const Team = ({
 }) => {
     return (
         <>
-        <ContainerTeam Background={Background[3]}>
+        <ContainerTeam Background={Background[4]}>
             <ContainerTitle>
         <h1> Team</h1>
             </ContainerTitle>

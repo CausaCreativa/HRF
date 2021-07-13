@@ -1,21 +1,23 @@
 import styled from 'styled-components'
 
 
-export const Container = styled.div`
-display: grid;
-grid-template-columns: 1fr;
-grid-template-rows: 840px;
+export const ContainerADN = styled.div`
+display: flex;
+height: 840px;
 width: 100%;
-height: auto;
 position: relative;
-border: 2px solid red;
+background-image: url(${props => props.BackgroundADN});
+background-repeat: no-repeat;
+background-size: cover;
+background-position:bottom;
+justify-content: center;
+
 `;
 
-export const BackgroundTop = styled.img`
-    display: flex;
-    width: 100%;
+export const ADNMol = styled.div`
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    width: 80%;
     height: auto;
-    background-position: center;
-    background-size: contain;
-    object-fit: cover;
     `;

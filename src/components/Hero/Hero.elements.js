@@ -52,11 +52,11 @@ font-weight:400;
 /* banner on section home container SVG image */
 export const HeroSvg =styled.div`
 position:absolute;
-top:125px;
 background-image:url(${props => props.vector});
 background-position: center;
 background-repeat: no-repeat;
-background-size: 100% 100%;
+background-size:contain;
+background-position:bottom;
 width: 100%;
 height: 100%;
 color:#fff;

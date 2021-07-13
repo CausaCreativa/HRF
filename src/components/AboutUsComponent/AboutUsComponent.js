@@ -9,7 +9,7 @@ const AboutUsComponent = ({
     return (
         <>
         <ContainerBackgroundTop>
-            <BackgroundTop Background={Background[0]} >
+            <BackgroundTop Background={Background[1]} >
                 <Title> ¿QUIENES SOMOS? </Title>
                 <Container>
                     <ContentImage>
