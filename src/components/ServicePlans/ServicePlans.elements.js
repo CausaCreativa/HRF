@@ -16,22 +16,22 @@ export const Image = styled.img`
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    @media screen and (max-width: 1400px){
-        width: 150px;
-        height: 150px;
+    @media screen and (max-width: 1440px){
+        width: 160px;
+        height: 160px;
         margin-bottom: 8px;
     }
-    @media screen and (max-width: 900px){
+    @media screen and (max-width: 1024px){
         width: 130px;
         height: 130px;
         margin-bottom: 6px;
     }
-    @media screen and (max-width: 480px){
+    @media screen and (max-width: 768px){
         width: 70px;
         height: 70px;
         margin-bottom: 4px;
     }
-    @media screen and (max-width: 460px){
+    @media screen and (max-width: 425px){
         width: 65px;
         height: 65px;
         margin-bottom: 4px;

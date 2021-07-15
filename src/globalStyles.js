@@ -62,11 +62,21 @@ export const GlobalStyle = createGlobalStyle`
     }
     .span_service50{
         width: 50%;
-        margin: 10px 192px;
+        margin: 9px 103px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @media screen and (max-width: 768px){
+            margin: 9px 66px;
+        }
     }
     .span_service100{
         width: 100%;
         margin: 10px 37%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
     }
     .modal {
         position: fixed;
