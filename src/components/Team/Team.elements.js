@@ -94,7 +94,6 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: contain;
 ${props=>props.desborde}
-
 `;
 
 export const ContainerPhoto =styled.div`

@@ -8,11 +8,14 @@ export const heroAbautUs = {
     };
 
     export const BackgroundAboutUs = {
-        Background:[require('../../utils/images/Bacground_ADN_SVG_1.svg').default,
+        Background:[require('../../utils/images/Background_ADN.svg').default,
         require('../../utils/images/Svg_quisomos_2.svg').default,
         require('../../utils/images/Svg_quisomos_3.svg').default,
         require('../../utils/images/Svg_quisomos_4.svg').default,
-        require('../../utils/images/Svg_quisomos_6.svg').default,],
+        require('../../utils/images/Svg_quisomos_6.svg').default,
+        require('../../utils/images/adn.svg').default,
+        require('../../utils/images/adn_2.svg').default,
+    require('../../utils/images/ADN_3.svg').default],
         imgStart:["row","row-reverse"],
         back:require('../../utils/images/circle.svg').default,
         IconValues:[require('../../utils/images/Icon1.svg').default,
