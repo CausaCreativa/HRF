@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/HRF/static/js/main.f7f569c6.chunk.js",
-    "main.js.map": "/HRF/static/js/main.f7f569c6.chunk.js.map",
+    "main.js": "/HRF/static/js/main.5497510d.chunk.js",
+    "main.js.map": "/HRF/static/js/main.5497510d.chunk.js.map",
     "runtime-main.js": "/HRF/static/js/runtime-main.2b4f9847.js",
     "runtime-main.js.map": "/HRF/static/js/runtime-main.2b4f9847.js.map",
     "static/js/2.ea7a702a.chunk.js": "/HRF/static/js/2.ea7a702a.chunk.js",
@@ -15,11 +15,11 @@
     "static/media/HeroContact.jpg": "/HRF/static/media/HeroContact.6d2eafa7.jpg",
     "static/media/HeroService.jpg": "/HRF/static/media/HeroService.6b0aadf8.jpg",
     "static/media/Hind-Light.54de0041.woff": "/HRF/static/media/Hind-Light.54de0041.woff",
-    "static/media/Icon1.svg": "/HRF/static/media/Icon1.48154d07.svg",
-    "static/media/Icon2.svg": "/HRF/static/media/Icon2.e64ec072.svg",
-    "static/media/Icon3.svg": "/HRF/static/media/Icon3.cfba255b.svg",
-    "static/media/Icon4.svg": "/HRF/static/media/Icon4.d00a89a7.svg",
-    "static/media/Icon5.svg": "/HRF/static/media/Icon5.ffbd0149.svg",
+    "static/media/Icon1.svg": "/HRF/static/media/Icon1.7f841b1c.svg",
+    "static/media/Icon2.svg": "/HRF/static/media/Icon2.efda8b97.svg",
+    "static/media/Icon3.svg": "/HRF/static/media/Icon3.d90d9929.svg",
+    "static/media/Icon4.svg": "/HRF/static/media/Icon4.0319b823.svg",
+    "static/media/Icon5.svg": "/HRF/static/media/Icon5.fefee090.svg",
     "static/media/Icon_SVG_Facebook.svg": "/HRF/static/media/Icon_SVG_Facebook.5a6ac21f.svg",
     "static/media/ImageAbautUsComponent.jpg": "/HRF/static/media/ImageAbautUsComponent.36f4ccc8.jpg",
     "static/media/LogoFooter.446d533e.svg": "/HRF/static/media/LogoFooter.446d533e.svg",
@@ -51,8 +51,12 @@
     "static/media/Value_svg_objetividad.svg": "/HRF/static/media/Value_svg_objetividad.6b1d9bf6.svg",
     "static/media/Value_svg_responsabilidad.svg": "/HRF/static/media/Value_svg_responsabilidad.7c638778.svg",
     "static/media/acueducto.png": "/HRF/static/media/acueducto.f8233865.png",
-    "static/media/adn.svg": "/HRF/static/media/adn.ad7da5ad.svg",
-    "static/media/adn_2.svg": "/HRF/static/media/adn_2.f9fa11aa.svg",
+    "static/media/adn.svg": "/HRF/static/media/adn.5409b163.svg",
+    "static/media/adn_2.svg": "/HRF/static/media/adn_2.0f2f2339.svg",
+    "static/media/adn_4.svg": "/HRF/static/media/adn_4.506c433c.svg",
+    "static/media/adn_5.svg": "/HRF/static/media/adn_5.9d56526a.svg",
+    "static/media/adn_6.svg": "/HRF/static/media/adn_6.a265eebf.svg",
+    "static/media/adn_7.svg": "/HRF/static/media/adn_7.043597c9.svg",
     "static/media/carta.svg": "/HRF/static/media/carta.4d7c2862.svg",
     "static/media/circle.svg": "/HRF/static/media/circle.1cb99d2a.svg",
     "static/media/clietnes.jpg": "/HRF/static/media/clietnes.b326d369.jpg",
@@ -76,6 +80,6 @@
   "entrypoints": [
     "static/js/runtime-main.2b4f9847.js",
     "static/js/2.ea7a702a.chunk.js",
-    "static/js/main.f7f569c6.chunk.js"
+    "static/js/main.5497510d.chunk.js"
   ]
 }
