@@ -18,16 +18,16 @@ const OrganizationalDNA = ({
                 </ADNDescription>
                 <ADNMol>
                     <div>
-                       <img src={Background[5]} alt="valor 1" />
+                       <img src={Background[11]} alt="valor 1" />
+                    </div>
+                    <div>
+                        <img src={Background[9]} alt="valor 1" />
                     </div>
                     <div>
                         <img src={Background[6]} alt="valor 1" />
                     </div>
                     <div>
-                        <img src={Background[6]} alt="valor 1" />
-                    </div>
-                    <div>
-                        <img src={Background[6]} alt="valor 1" />
+                        <img src={Background[9]} alt="valor 1" />
                     </div>
                     <div>
                         <img src={Background[5]} alt="valor 1" />

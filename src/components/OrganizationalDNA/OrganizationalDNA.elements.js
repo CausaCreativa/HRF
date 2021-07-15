@@ -72,7 +72,7 @@ export const ADNMol = styled.div`
     grid-template-rows: repeat(5, 140px);
     width: 80%;
     height: auto;
-    
+
     align-items: center;
     justify-self: center;
     & div {
