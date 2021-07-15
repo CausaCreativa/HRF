@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.js": "/HRF/static/js/main.226f6700.chunk.js",
-    "main.js.map": "/HRF/static/js/main.226f6700.chunk.js.map",
+    "main.js": "/HRF/static/js/main.f7f569c6.chunk.js",
+    "main.js.map": "/HRF/static/js/main.f7f569c6.chunk.js.map",
     "runtime-main.js": "/HRF/static/js/runtime-main.2b4f9847.js",
     "runtime-main.js.map": "/HRF/static/js/runtime-main.2b4f9847.js.map",
     "static/js/2.ea7a702a.chunk.js": "/HRF/static/js/2.ea7a702a.chunk.js",
     "static/js/2.ea7a702a.chunk.js.map": "/HRF/static/js/2.ea7a702a.chunk.js.map",
     "index.html": "/HRF/index.html",
     "static/js/2.ea7a702a.chunk.js.LICENSE.txt": "/HRF/static/js/2.ea7a702a.chunk.js.LICENSE.txt",
-    "static/media/Bacground_ADN_SVG_1.svg": "/HRF/static/media/Bacground_ADN_SVG_1.09c2b593.svg",
+    "static/media/ADN_3.svg": "/HRF/static/media/ADN_3.ea64ba63.svg",
+    "static/media/Background_ADN.svg": "/HRF/static/media/Background_ADN.2283fb1d.svg",
     "static/media/Caprecom.png": "/HRF/static/media/Caprecom.a06a4ecb.png",
     "static/media/Fiduciariacentral.png": "/HRF/static/media/Fiduciariacentral.15b55a01.png",
     "static/media/HeroContact.jpg": "/HRF/static/media/HeroContact.6d2eafa7.jpg",
@@ -50,6 +51,8 @@
     "static/media/Value_svg_objetividad.svg": "/HRF/static/media/Value_svg_objetividad.6b1d9bf6.svg",
     "static/media/Value_svg_responsabilidad.svg": "/HRF/static/media/Value_svg_responsabilidad.7c638778.svg",
     "static/media/acueducto.png": "/HRF/static/media/acueducto.f8233865.png",
+    "static/media/adn.svg": "/HRF/static/media/adn.ad7da5ad.svg",
+    "static/media/adn_2.svg": "/HRF/static/media/adn_2.f9fa11aa.svg",
     "static/media/carta.svg": "/HRF/static/media/carta.4d7c2862.svg",
     "static/media/circle.svg": "/HRF/static/media/circle.1cb99d2a.svg",
     "static/media/clietnes.jpg": "/HRF/static/media/clietnes.b326d369.jpg",
@@ -73,6 +76,6 @@
   "entrypoints": [
     "static/js/runtime-main.2b4f9847.js",
     "static/js/2.ea7a702a.chunk.js",
-    "static/js/main.226f6700.chunk.js"
+    "static/js/main.f7f569c6.chunk.js"
   ]
 }
