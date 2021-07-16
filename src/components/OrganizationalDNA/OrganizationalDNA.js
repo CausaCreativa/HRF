@@ -11,10 +11,25 @@ const OrganizationalDNA = ({
         <>
             <ContainerADN BackgroundADN={Background[0]}>
                 <ADNDescription>
+
                     <div>
-                        <h1> hola</h1>
-                        <p> estae es el adn humano perros</p>
+                        <h1> EFICIENTE</h1>
                     </div>
+                    <div>
+                    </div>
+                    <div>
+                     <h1>
+                     ÍNTEGRO
+                    </h1> 
+                    </div>
+                    <div>
+                    </div>
+                    <div>
+                     <h1>
+                     INNOVADOR
+                    </h1> 
+                    </div>
+                    
                 </ADNDescription>
                 <ADNMol>
                     <div>
@@ -35,26 +50,23 @@ const OrganizationalDNA = ({
 
 
                 </ADNMol>
-                <ADNDescription>
-                    <div>
-                        <h1> hola</h1>
-                        <p> estae es el adn humano perros</p>
+                <ADNDescription> <div>
+                        <h1> EMPÁTICO</h1>
+
                     </div>
                     <div>
-                        <h1> hola</h1>
-                        <p> estae es el adn humano perros</p>
+                    </div>
+                   
+                    
+                    <div>
+                        <h1>VISIONARIO</h1>
+                        
+                    </div><div>
+                        
                     </div>
                     <div>
-                        <h1> hola</h1>
-                        <p> estae es el adn humano perros</p>
-                    </div>
-                    <div>
-                        <h1> hola</h1>
-                        <p> estae es el adn humano perros</p>
-                    </div>
-                    <div>
-                        <h1> hola</h1>
-                        <p> estae es el adn humano perros</p>
+                        <h1> FACILITADOR</h1>
+                        
                     </div>
 
                 </ADNDescription>

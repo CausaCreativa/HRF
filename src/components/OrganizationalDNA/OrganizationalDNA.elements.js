@@ -70,17 +70,20 @@ export const ADNMol = styled.div`
     display: grid;
     grid-template-columns: 3fr;
     grid-template-rows: repeat(5, 140px);
-    width: 80%;
+    width: 100%;
     height: auto;
-
     align-items: center;
     justify-self: center;
+    & :nth-child(4n){
+        color: red;
+        }
     & div {
             display: flex;
-            width: 90%;
+            width: 50%;
             align-items: center;
             flex-direction: column;
             color:white;
+            font-family: 'Hind';
         }
     `;
 
