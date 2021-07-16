@@ -12,8 +12,20 @@ margin-bottom: 0px;
 font-size: 60px;
 `;
 export const ContainerPanelLocation = styled.div`
-height: 191vh;
+height: 212vh;
 position: relative;
+@media screen and (max-width: 1440px){
+    height:212vh;
+}
+@media screen and (max-width: 1024px){
+    height:165vh;
+}
+@media screen and (max-width: 768px){
+    height:124vh;
+}
+@media screen and (max-width: 425px){
+    height:69vh;
+}
 `;
 export const PanelLocationBackground = styled.div`
 background-image:url(${ props => props.Background});
@@ -31,9 +43,21 @@ export const IconPanel = styled.div`
     justify-content: center;
     color:#000!important;
     text-align: center;
+    @media screen and (max-width: 1440px){
+        margin:80px 0px 273px;
+    }
+    @media screen and (max-width: 1024px){
+        margin:13px 0px 185px;
+    }
+    @media screen and (max-width: 768px){
+        margin:0px 0px 70px;
+    }
+    @media screen and (max-width: 425px){
+        margin:80px 0px 273px;
+    }
 `;
 export const IframeContent = styled.div`
-    margin: 27px 0PX;
+    
     width: 100%;
     display: flex;
     justify-content: center;

@@ -40,6 +40,13 @@ export const GlobalStyle = createGlobalStyle`
         font-family: 'hind';
         font-weight: 100;
         cursor: pointer;
+        
+         @media screen and (max-width: 768px){
+            font-size: 1.5rem;
+         }
+         @media screen and (max-width: 425px){
+            font-size: 2.5rem ;
+         }
     }
 
     .title_service{
@@ -93,6 +100,24 @@ export const GlobalStyle = createGlobalStyle`
       
       .display-none {
         display: none;
+      }
+      iframe{
+        @media screen and (max-width: 1440px){
+           height: 800px;
+            width: 800px; 
+        }
+        @media screen and (max-width: 1024px){
+            height: 500px;
+            width: 800px;
+        }
+        @media screen and (max-width: 768px){
+            height: 400px;
+            width: 600px;
+        }
+        @media screen and (max-width: 425px){
+            height: 400px;
+            width: 600px;
+        }
       }
 `;
 

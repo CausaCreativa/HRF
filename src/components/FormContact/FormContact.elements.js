@@ -2,8 +2,20 @@
 import styled from 'styled-components'
 
 export const ContainerPanelForm = styled.div`
-height: 129vh;
+height: 142vh;
 position: relative;
+@media screen and (max-width: 1440px){
+    height:140vh;
+}
+@media screen and (max-width: 1024px){
+    height:112vh;
+}
+@media screen and (max-width: 768px){
+    height:84vh;
+}
+@media screen and (max-width: 425px){
+    height:47vh;
+}
 `;
 export const PanelFormBackground = styled.div`
 background-image:url(${ props => props.Background});
