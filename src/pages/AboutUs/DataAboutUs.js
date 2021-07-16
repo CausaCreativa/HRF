@@ -16,10 +16,12 @@ export const heroAbautUs = {
         require('../../utils/images/adn.svg').default,
         require('../../utils/images/adn_2.svg').default,
         require('../../utils/images/ADN_3.svg').default,
-    require('../../utils/images/adn_4.svg').default,
-    require('../../utils/images/adn_5.svg').default,
-    require('../../utils/images/adn_6.svg').default,
-    require('../../utils/images/adn_7.svg').default],
+        require('../../utils/images/adn_4.svg').default,
+        require('../../utils/images/adn_5.svg').default,
+        require('../../utils/images/adn_6.svg').default,
+        require('../../utils/images/adn_7.svg').default,
+        require('../../utils/images/ImageAbautUsComponent.jpg').default
+    ],
         imgStart:["row","row-reverse"],
         back:require('../../utils/images/circle.svg').default,
         IconValues:[require('../../utils/images/Icon1.svg').default,
@@ -35,9 +37,7 @@ export const heroAbautUs = {
         require('../../utils/images/Value_svg_objetividad.svg').default,
         require('../../utils/images/Value_svg_responsabilidad.svg').default,]
 }
-    export const ImageAbautUsComponent = {
-        pic:require('../../utils/images/ImageAbautUsComponent.jpg').default
-    };
+
     export const  TeamData ={
         Icon:[require('../../utils/images/Icon_SVG_Facebook.svg').default, require('../../utils/images/linkedin_2.svg').default,require('../../utils/images/twitter.svg').default],
         member1:["ERIKA FORERO RODRIGUEZ","Contadora Pública - Especialista en Gerencia estratégica de negocios","Soy bueno en acosatarme tarde, entregar sobnre el deadline, leer y comer hamburguesas de presto, de las que traen champiñones.",[" Aseguramiento de la información financiera y tributaria histórica", " Revisoría Fiscal", " Interventoría de cuentas "],  require('../../utils/images/memberTeam.svg').default],

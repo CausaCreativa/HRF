@@ -5,7 +5,7 @@ const AboutUs = () => {
 return (
     <>
     <Hero {...heroAbautUs} />
-    {/* <AboutUsComponent {...BackgroundAboutUs}/> */}
+    <AboutUsComponent {...BackgroundAboutUs}/>
     <OrganizationalDNA {...BackgroundAboutUs} />
     <Values {...BackgroundAboutUs} {...desbordes} />
     <Team {...BackgroundAboutUs}{ ...TeamData}{...desbordes}/>

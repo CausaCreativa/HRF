@@ -23,17 +23,19 @@ export const none = keyframes`
     opacity: 1;
   }
 `;
+
+
 export const ContainerADN = styled.div`
 display: flex;
 height: auto;
 width: 100%;
+padding-top: 20%;
 position: relative;
 background-image: url(${props => props.BackgroundADN});
 background-repeat: no-repeat;
 background-size: cover;
 background-position:bottom;
-justify-content: center;
-
+justify-content: flex-end;
 `;
 
 export const ADNMol = styled.div`
@@ -74,9 +76,6 @@ export const ADNMol = styled.div`
     height: auto;
     align-items: center;
     justify-self: center;
-    & :nth-child(4n){
-        color: red;
-        }
     & div {
             display: flex;
             width: 50%;
@@ -86,6 +85,20 @@ export const ADNMol = styled.div`
             font-family: 'Hind';
         }
     `;
+
+
+
+export const  TitleContainer=styled.div`
+position: absolute;
+top: 10%;
+display: flex;
+font-family: 'Roboto';
+margin-right: 5%;
+    & h1{
+        color: white;
+        font-size: 60px;
+    }
+`;
 
 
 

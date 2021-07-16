@@ -1,108 +1,68 @@
 import styled from 'styled-components'
+
 export const Container = styled.div`
 position: relative;
 display: flex;
 flex-direction: column;
-align-content: center;
-align-items: center;
-width: 100%;
-`;
-export const ContentImage = styled.div`
-width: 100%;
-height: 100%;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-padding: 20px;
-margin-top: 190px;
-`;
-
-export const Image = styled.img`
-background-image:url(${ props => props.pic});
-width: 800px;
-    height: 600px;
-background-size:cover;
+align-items: flex-start;
+background-image: url(${props => props.Background});
+background-position:top;
 background-repeat: no-repeat;
-object-fit:contain;
-background-position:center;
+background-size: contain;
+background-attachment: local;
+width: 100%;
+height:  min-content;
+flex-direction: column;
+    background-size: cover;
+    object-fit: cover;
 `;
 
-export const ContentText = styled.div`
-    color: #fff;
-    background-color: #57DBD3;
-    width: 450px;
-    height: 220px;
-    display: flex;
-    align-content: space-around;
-    justify-content: center;
-    align-items: center;
-    box-shadow:3px 4px 0px #9e9e9e, 0 0 1em #9e9e9e, 0 0 0.2em #9e9e9e;
-    bottom: 13vh;
-    position: relative;
-    left: 42vh;
-    border: 14px solid #fff;
-
+export const  TitleContainer=styled.div`
+font-family: 'Roboto';
+margin-left: 5%;
+    & h1{
+        color: white;
+        font-size: 60px;
+    }
 `;
-export const Text = styled.p`
 
-`;
-export const ContentText2 = styled.div`
-    color: #fff;
-    background-color: #0c4990;
-    width: 900px;
-    height: 75vh;
-    display: flex;
-    align-content: space-around;
-    justify-content: center;
-    align-items: center;
-    bottom: 44vh;
-    position: relative;
-    left: 6vh;
-    padding: 40px;
-    z-index: -999;
-`;
-export const Text2 = styled.p`
-
-`;
-export const Title = styled.h1`
-    color: white;
-    margin-left: 50px;
-    font-size: 50px;
-`
-
-export const ContainerBackgroundTop = styled.div`
-
-height: 625px;
+export const ContentAbout = styled.div`
 position: relative;
-@media screen and (max-width: 1900px){
-    height: 540px
-}
-@media screen and (max-width: 1400px){
-    height: 488px;
-}
-@media screen and (max-width: 1300px){
-    height: 356px;
-}
-@media screen and (max-width: 900px){
-    height: 313px;
-}
-@media screen and (max-width: 800px){
-    height: 267px;
-}
-@media screen and (max-width: 480px){
-    height: 168px;
-}
-@media screen and (max-width: 460px){
-    height: 144px
-}
+display: grid;
+width: 80%;
+height: min-content;
+align-self: center;
+grid-template-columns: 1fr;
+grid-template-rows: repeat(3, auto );
+margin-top: 5%;
+    &  img{
+        margin-top: 2%;
+        border: 1px solid red;
+        width: 60%;
+        height: auto;
+        justify-self:center;
+        z-index: 10;
+    }
 `;
-export const BackgroundTop = styled.div`
-background-image:url(${ props => props.Background});
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
-    position: absolute;
+
+export const TextAbout= styled.div`
+display: flex;
+position: relative;
+bottom: 20%;
+z-index: 1;
+width: 70%;
+height: min-content;
+background: linear-gradient(180deg, #0E55A5 0%, #124489 70.83%, #124489 70.84%, #133D7D 100%);
+box-shadow: 0px 4.18559px 20.928px rgba(0, 0, 0, 0.3);
+justify-self: flex-end;
+    & p {
+        font-family: 'Hind';
+        color: white;
+        margin-top: 9%;
+        padding: 12% 5% ;
+        font-size: 22px;
+
+    }
 `;
+
+

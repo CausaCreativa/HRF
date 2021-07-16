@@ -11,7 +11,7 @@ function App() {
   return (
     <Router>
       <GlobalStyle/>
-      <MenuNetworks></MenuNetworks>
+      {/* <MenuNetworks/> */}
       <Navbar />
       <Switch >
       <Route path="/contact" excat component={Contact} />

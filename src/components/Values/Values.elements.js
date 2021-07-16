@@ -29,6 +29,7 @@ font-family: 'Spectral';
 font-size: 50px;
 color: white;
 justify-content: flex-start;
+margin: 3% 0;
         & h1{
             position: relative;
             left: 40%;

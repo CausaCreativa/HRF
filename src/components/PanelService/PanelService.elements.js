@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const ContainerBackgroundTop = styled.div`
-    height: 625px;
+    height: 700px;
     position: relative;
     @media screen and (max-width: 1900px){
         height: 658px
@@ -10,7 +10,7 @@ export const ContainerBackgroundTop = styled.div`
         height: 500px;
     }
     @media screen and (max-width: 1300px){
-        height: 356px;
+        height: 352px;
     }
     @media screen and (max-width: 900px){
         height: 313px;
@@ -58,9 +58,9 @@ margin-bottom: 92px;
 `;
 export const BackgroundTop = styled.div`
     background-image:url(${ props => props.Background});
-    background-position: center;
+    background-position: 0vh;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     width: 100%;
     height: 100%;
     position: absolute;

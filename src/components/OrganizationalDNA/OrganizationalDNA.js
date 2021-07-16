@@ -1,5 +1,8 @@
 import React from 'react'
-import {ContainerADN, ADNMol, ADNDescription} from './OrganizationalDNA.elements'
+import {ContainerADN,
+        ADNMol,
+        ADNDescription,TitleContainer
+        } from './OrganizationalDNA.elements'
 
 
 
@@ -10,26 +13,25 @@ const OrganizationalDNA = ({
     return (
         <>
             <ContainerADN BackgroundADN={Background[0]}>
+                <TitleContainer>
+                    <h1>
+                        ADN ORGANIZACIONAL
+                    </h1>
+
+                </TitleContainer>
                 <ADNDescription>
 
                     <div>
                         <h1> EFICIENTE</h1>
                     </div>
+                    <div></div>
                     <div>
+                        <h1>ÍNTEGRO</h1>2
                     </div>
+                    <div></div>
                     <div>
-                     <h1>
-                     ÍNTEGRO
-                    </h1> 
+                        <h1>INNOVADOR</h1>
                     </div>
-                    <div>
-                    </div>
-                    <div>
-                     <h1>
-                     INNOVADOR
-                    </h1> 
-                    </div>
-                    
                 </ADNDescription>
                 <ADNMol>
                     <div>
@@ -50,24 +52,18 @@ const OrganizationalDNA = ({
 
 
                 </ADNMol>
-                <ADNDescription> <div>
-                        <h1> EMPÁTICO</h1>
-
-                    </div>
-                    <div>
-                    </div>
-                   
-                    
-                    <div>
-                        <h1>VISIONARIO</h1>
-                        
-                    </div><div>
-                        
-                    </div>
-                    <div>
-                        <h1> FACILITADOR</h1>
-                        
-                    </div>
+                <ADNDescription>
+                        <div>
+                            <h1> EMPÁTICO</h1>
+                        </div>
+                        <div></div>
+                        <div>
+                            <h1>VISIONARIO</h1>
+                        </div>
+                        <div></div>
+                        <div>
+                            <h1> FACILITADOR</h1>
+                        </div>
 
                 </ADNDescription>
 
