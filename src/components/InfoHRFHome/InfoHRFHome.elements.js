@@ -6,12 +6,13 @@ export const InfoHome= styled.div`
     position: relative;
     width: 100%;
     color: #000;
+    height: min-content;
     border: 1px solid red;
     top:-4px;
     grid-template-columns: 1fr 1fr;
-    @media screen and  (min-width:375px) and (max-width:425px){
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: none;
+    @media screen and  (min-width:375px) and (max-width:768px){
+    grid-template-columns: 1fr;
+    grid-template-rows:  500px;
 }
 `;
 
@@ -53,7 +54,8 @@ top:20%;
     width:350px;
 }
 @media screen and  (min-width:768px) and (max-width:1020px){
-    width:350px;
+    
+    width:550px;
 }
 @media screen and  (min-width:1021px) and (max-width:1420px){
     width:450px;
@@ -79,6 +81,11 @@ font-family:'Hind';
 font-size: 1.5rem;
 color: black;
 margin-top: 70%;
+@media screen and  (min-width:325px) and (max-width:768px){
+    margin:20% 10%;
+
+}
+
 `;
 
 export const  ButtomHome = styled.button`
