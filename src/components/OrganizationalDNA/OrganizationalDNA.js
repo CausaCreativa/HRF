@@ -26,7 +26,7 @@ const OrganizationalDNA = ({
                     </div>
                     <div></div>
                     <div>
-                        <h1>ÍNTEGRO</h1>2
+                        <h1>ÍNTEGRO</h1>
                     </div>
                     <div></div>
                     <div>

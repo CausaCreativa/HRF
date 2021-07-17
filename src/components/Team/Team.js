@@ -33,15 +33,16 @@ const Team = ({
                     <h2>{member1[0]}</h2>
                     <h4>{member1[1]}</h4>
                     <ContainerIcon>
-                        <a href="https://google.com">
+                    <a href="https://facebook.com">
                             <IconImg src={Icon[0]} />
                         </a>
-                        <a href="https://google.com">
+                        <a href="https://linkedin.com">
                             <IconImg src={Icon[1]} />
                         </a>
-                        <a href="https://google.com">
+                        <a href="https://twitter.com">
                             <IconImg src={Icon[2]} />
                         </a>
+                        
                     </ContainerIcon>
                     <p> {member1[2]} </p>
                     <ul>
@@ -61,13 +62,13 @@ const Team = ({
                     <h2>{member1[0]}</h2>
                     <h4>{member1[1]}</h4>
                     <ContainerIcon>
-                        <a href="https://google.com">
+                        <a href="https://facebook.com">
                             <IconImg src={Icon[0]} />
                         </a>
-                        <a href="https://google.com">
+                        <a href="https://instagram.com">
                             <IconImg src={Icon[1]} />
                         </a>
-                        <a href="https://google.com">
+                        <a href="https://twitter.com">
                             <IconImg src={Icon[2]} />
                         </a>
                     </ContainerIcon>
@@ -87,13 +88,13 @@ const Team = ({
                     <h2>{member1[0]}</h2>
                     <h4>{member1[1]}</h4>
                     <ContainerIcon>
-                        <a href="https://google.com">
+                    <a href="https://facebook.com">
                             <IconImg src={Icon[0]} />
                         </a>
-                        <a href="https://google.com">
+                        <a href="https://instagram.com">
                             <IconImg src={Icon[1]} />
                         </a>
-                        <a href="https://google.com">
+                        <a href="https://twitter.com">
                             <IconImg src={Icon[2]} />
                         </a>
                     </ContainerIcon>
@@ -113,13 +114,13 @@ const Team = ({
                     <h2>{member1[0]}</h2>
                     <h4>{member1[1]}</h4>
                     <ContainerIcon>
-                        <a href="https://google.com">
+                    <a href="https://facebook.com">
                             <IconImg src={Icon[0]} />
                         </a>
-                        <a href="https://google.com">
+                        <a href="https://instagram.com">
                             <IconImg src={Icon[1]} />
                         </a>
-                        <a href="https://google.com">
+                        <a href="https://twitter.com">
                             <IconImg src={Icon[2]} />
                         </a>
                     </ContainerIcon>

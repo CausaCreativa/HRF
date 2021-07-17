@@ -41,6 +41,7 @@ display: flex;
 align-items:flex-start;
 margin-top: 67px;
 position:absolute;
+
 `;
 
 
@@ -50,8 +51,8 @@ display:flex;
 position: relative;
 top:20px;
 align-items:center;
-width:250px;
-height:250px;
+width:230px;
+height:230px;
 background-image:url(${logopage});
 background-size: contain;
 background-repeat:no-repeat;
@@ -59,7 +60,16 @@ object-fit:cover;
 margin-top:10px;
 margin-right:10px;
 color:red;
-`
+    @media screen and  (min-width:375px) and (max-width:425px){
+    width:120px;
+    top:40px;
+}
+@media screen and  (min-width:768px) and (max-width:1020px){
+    width:200px;
+    top:50px;
+}
+
+`;
 
 
 
@@ -157,4 +167,6 @@ width: 100%;
 border: none;
 outline: none;
 `;
+
+
 
