@@ -2,26 +2,30 @@ import styled from 'styled-components'
 
 
 export const InfoHome= styled.div`
-    display: flex;
+    display: grid;
     position: relative;
     width: 100%;
     color: #000;
-    top: 65px;
-    
-
+    border: 1px solid red;
+    top:-4px;
+    grid-template-columns: 1fr 1fr;
+    @media screen and  (min-width:375px) and (max-width:425px){
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: none;
+}
 `;
 
 export const HeroSvg =styled.div`
 display: flex;
 position:absolute;
 z-index: -10;
-top:-150px;
 background-image:url(${props => props.vector});
-background-position: center;
+background-position: top;
 background-repeat: no-repeat;
-background-size: 100% ;
+background-size:100%;
+background-attachment: local;
 width: 100%;
-height: 110%;
+height: 100%;
 `;
 
 export const HomeLeft =styled.div`
@@ -30,37 +34,56 @@ display: flex;
 flex-direction: column;
 justify-content: space-between;
 align-items: center;
-width: 50%;
-
+width: 100%;
+margin-left: 5%;
 `;
 
 export const ContainerVideo = styled.div`
+position: relative;
 display: flex;
-width:750px;
+width:950px;
 height: min-content;
-margin-left: 10%;
-margin-top: 5%;
+justify-content: center;
+top:20%;
+@media screen and  (min-width:375px) and (max-width:425px){
+    width:350px;
+    margin: auto;
+}
+@media screen and  (min-width:426px) and (max-width:767px){
+    width:350px;
+}
+@media screen and  (min-width:768px) and (max-width:1020px){
+    width:350px;
+}
+@media screen and  (min-width:1021px) and (max-width:1420px){
+    width:450px;
+}
+@media screen and  (min-width:1426px) and (max-width:1920px){
+    top:15%;
+    width:750px;
+}
+
 
 `;
 
 export const HomeRight =styled.div`
 display: flex;
 justify-content: center;
-width: 50%;
+width: 100%;
+
 `
 export const ContainerText = styled.div`
 display: flex;
-width: 70%;
+width: 100%;
 font-family:'Hind';
 font-size: 1.5rem;
 color: black;
-margin-top: 45%;
+margin-top: 70%;
 `;
 
 export const  ButtomHome = styled.button`
 margin-left: -100px;
 position: relative;
-top: 90px;
 
 
 `;

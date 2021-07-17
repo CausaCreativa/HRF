@@ -22,7 +22,7 @@ const InfoHRFHome = (
                     <ContainerVideo>
                         <ReactPlayer
                         url={require('../../utils/videos/video.mp4').default}
-                        width='100%'
+                        width='80%'
                         height='100%'
                         controls
                         />

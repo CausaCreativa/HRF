@@ -22,7 +22,6 @@ export const fadein = keyframes`
 export const CustomersHomeElements = styled.div`
 display: flex;
 position: relative;
-margin-top: 365px;
 width: 100%;
 height:auto ;
 flex-direction: column;

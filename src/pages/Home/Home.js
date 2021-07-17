@@ -6,7 +6,7 @@ return (
     <>
     <Hero {...heroHome} />
     <InfoHRFHome {...dataInfoHome}/>
-    {/* <CustomersHome {...dataCustomer}/> */}
+    <CustomersHome {...dataCustomer}/>
     </>
   );
 };
