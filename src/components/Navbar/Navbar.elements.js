@@ -99,7 +99,7 @@ text-align: center;
     display:flex;
     flex-direction:column;
     width:100%;
-    height:90vh;
+    height:40vh;
     position:absolute;
     top:65px;
     left: ${({click}) => (click ? 0 : '-100%')};
@@ -107,6 +107,7 @@ text-align: center;
     transition:all 0.5s ease;
     background:#101522;
 }
+
 `;
 
 export const NavItem = styled.li`
