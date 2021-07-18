@@ -8,7 +8,7 @@ export const homeObjOne = {
         banner: 'Para HRF lo más importante eres tu... ',
         vector: require('../../utils/images/Svg_Home_1.svg').default,
         title: 'SOMOS HRF',
-        viewHeight:95
+        viewHeight:sizeHero()
     };
 
     export const dataInfoHome = {
@@ -40,4 +40,16 @@ export const homeObjOne = {
                 require('../../utils/images/eru_1.png').default,
                 require('../../utils/images/RTVC.png').default,
                 require('../../utils/images/mov.png').default]
+    }
+
+
+
+     export  function  sizeHero(){
+        if(window.innerWidth > 1440 ) {
+            return 95
+        }else if(window.innerWidth < 800){
+            return 60
+
+        }
+
     }

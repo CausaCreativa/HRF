@@ -40,7 +40,6 @@ export const GlobalStyle = createGlobalStyle`
         font-family: 'hind';
         font-weight: 100;
         cursor: pointer;
-        
          @media screen and (max-width: 768px){
             font-size: 1.5rem;
          }
@@ -83,7 +82,6 @@ export const GlobalStyle = createGlobalStyle`
         display: flex;
         justify-content: center;
         align-items: center;
-        
     }
     .modal {
         position: fixed;

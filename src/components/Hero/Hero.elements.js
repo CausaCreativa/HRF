@@ -27,12 +27,31 @@ letter-spacing:2px;
 line-height:45px;
 color:#fff;
 font-weight:400;
+border: 2px solid red;
+@media screen and (min-width:325px) and (max-width:425px){
+
+    height: 80px;
+     font-size: 20px;
+     letter-spacing:1px;
+     line-height:30px;
+    bottom: -5%;
+     
+ }
+
+ @media screen and (min-width:426px) and (max-width:768px){
+     width: 60%;
+    height: 80px;
+     font-size: 22px;
+     letter-spacing:1px;
+     line-height:30px;
+    bottom: -5%;
+ }
 `;
 
 /* banner on section left */
 export const HeroTitle =styled.div`
 position:absolute;
-bottom:140px;
+bottom:20%;
 margin-left: 8%;
 padding-top: 2%;
 align-self:flex-start;
@@ -46,6 +65,17 @@ line-height:80px;
 text-align: center;
 color:#fff;
 font-weight:400;
+ @media screen and (min-width:325px) and (max-width:425px){
+     font-size: 30px;
+     letter-spacing:1px;
+     line-height:40px;
+     bottom:-10%;
+ }
+
+ @media screen and (min-width:426px) and (max-width:768px){
+     bottom: 5%;
+     font-size: 45px;
+ }
 
 `;
 
@@ -53,14 +83,15 @@ font-weight:400;
 export const HeroSvg =styled.div`
 position:absolute;
 background-image:url(${props => props.vector});
-background-position: center;
+background-position:bottom;
 background-repeat: no-repeat;
 background-size:contain;
-background-position:bottom;
 width: 100%;
 height: 100%;
 color:#fff;
-
+@media screen and (min-width:1244){
+    background-size:cover ;
+}
 `;
 
 export const HeroImage =styled.div`
@@ -69,6 +100,6 @@ height:100%;
 background-image:url(${ props => props.hero});
 background-size:cover;
 background-repeat: no-repeat;
-object-fit:contain;
-background-position:center;
+background-position:center center;
+
 `;

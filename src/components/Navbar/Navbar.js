@@ -17,7 +17,7 @@ import {Nav,
 
 const Navbar = () => {
     const [click, setClick]= useState(false);
-    const [/*button*/, setButton] = useState(true);
+    const [button, setButton] = useState(true);
 
 
     const handleClick= () => setClick(!click);

@@ -1,4 +1,5 @@
 import React from 'react'
+import { sizeHero } from '../../pages/Home/DataHome'
 import {
     HeroContainer,
     HeroImage,
@@ -16,6 +17,9 @@ export const Hero = ({
     hero,
     viewHeight
 }) => {
+
+    window.addEventListener('resize',sizeHero)
+
     return (
 
         <>

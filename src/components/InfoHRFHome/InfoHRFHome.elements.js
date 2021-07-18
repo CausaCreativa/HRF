@@ -48,7 +48,7 @@ justify-content: center;
 top:20%;
 @media screen and  (min-width:375px) and (max-width:425px){
     width:350px;
-    margin: auto;
+    
 }
 @media screen and  (min-width:426px) and (max-width:767px){
     width:350px;
