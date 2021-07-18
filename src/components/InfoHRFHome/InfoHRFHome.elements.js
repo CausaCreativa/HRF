@@ -39,7 +39,7 @@ flex-direction: column;
 justify-content: space-between;
 align-items: center;
 width: 100%;
-margin-left: 5%;
+
 @media screen and (max-width:500px){
     margin-left:0 ;
     justify-content: none;
@@ -83,6 +83,9 @@ width: 100%;
 `
 export const ContainerText = styled.div`
 display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 width: 100%;
 font-family:'Hind';
 font-size: 1.5rem;
@@ -91,6 +94,7 @@ margin-top: 70%;
 text-decoration: none   ;
 @media screen and  (min-width:325px) and (max-width:768px){
     margin:20% 10%;
+    text-align: justify;
 
 }
 
@@ -101,8 +105,18 @@ display: flex;
 position: relative;
 justify-content: center;
 justify-self: center;
+`;
 
-
+export const ButtonMobile= styled.div`
+display: none;
+border: 1px solid red;
+width: 100%;
+height: auto;
+justify-content: center;
+margin: 35px 0;
+@media screen and (min-width:325px) and (max-width:800px){
+display: flex;
+}
 
 `;
 

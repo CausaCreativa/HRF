@@ -10,6 +10,11 @@ export const GlobalStyle = createGlobalStyle`
     padding:0;
     margin:0;
 }
+a{
+    text-decoration: none;
+    margin: -5% 0;
+
+}
 
 @font-face {
         font-family:'Roboto';
@@ -35,13 +40,16 @@ export const GlobalStyle = createGlobalStyle`
         display: flex;
         justify-self:center;
         border-radius: 15px;
-        background-color: #0088eb;
-        padding: 2px 30px;
+        padding: 12px 30px;
         color: #fff;
         font-size: 2.5rem ;
-        font-family: 'hind';
-        font-weight: 100;
         cursor: pointer;
+        background: #0C4F9C;
+        box-shadow: 6.48305px 4.32203px 4.32203px rgba(0, 0, 0, 0.25);
+        font-family: Century Gothic;
+        font-style: normal;
+        font-weight: 100;
+        color: #F2F2F2;
          @media screen and (max-width: 768px){
             font-size: 2rem;
          }
