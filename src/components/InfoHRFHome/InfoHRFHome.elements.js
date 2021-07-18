@@ -7,10 +7,13 @@ export const InfoHome= styled.div`
     width: 100%;
     color: #000;
     height: min-content;
-    border: 1px solid red;
     top:-4px;
     grid-template-columns: 1fr 1fr;
-    @media screen and  (min-width:375px) and (max-width:768px){
+    @media screen and  (min-width:375px) and (max-width:425px){
+    grid-template-columns: 1fr;
+    grid-template-rows:  300px;
+}
+@media screen and  (min-width:426px) and (max-width:768px){
     grid-template-columns: 1fr;
     grid-template-rows:  500px;
 }
@@ -37,6 +40,10 @@ justify-content: space-between;
 align-items: center;
 width: 100%;
 margin-left: 5%;
+@media screen and (max-width:500px){
+    margin-left:0 ;
+    justify-content: none;
+}
 `;
 
 export const ContainerVideo = styled.div`
@@ -81,6 +88,7 @@ font-family:'Hind';
 font-size: 1.5rem;
 color: black;
 margin-top: 70%;
+text-decoration: none   ;
 @media screen and  (min-width:325px) and (max-width:768px){
     margin:20% 10%;
 
@@ -89,8 +97,11 @@ margin-top: 70%;
 `;
 
 export const  ButtomHome = styled.button`
-margin-left: -100px;
+display: flex;
 position: relative;
+justify-content: center;
+justify-self: center;
+
 
 
 `;

@@ -32,6 +32,8 @@ export const GlobalStyle = createGlobalStyle`
         font-style: normal;
     }
     .button{
+        display: flex;
+        justify-self:center;
         border-radius: 15px;
         background-color: #0088eb;
         padding: 2px 30px;
@@ -41,10 +43,10 @@ export const GlobalStyle = createGlobalStyle`
         font-weight: 100;
         cursor: pointer;
          @media screen and (max-width: 768px){
-            font-size: 1.5rem;
+            font-size: 2rem;
          }
          @media screen and (max-width: 425px){
-            font-size: 2.5rem ;
+            font-size: 1.5rem ;
          }
     }
 

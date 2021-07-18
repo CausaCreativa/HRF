@@ -22,12 +22,12 @@ justify-content:flex-end;
 width:50%;
 height:60px;
 font-family:'Roboto';
-font-size:40px;
+font-size:50px;
 letter-spacing:2px;
 line-height:45px;
 color:#fff;
 font-weight:400;
-border: 2px solid red;
+
 @media screen and (min-width:325px) and (max-width:425px){
 
     height: 80px;
@@ -35,7 +35,7 @@ border: 2px solid red;
      letter-spacing:1px;
      line-height:30px;
     bottom: -5%;
-     
+
  }
 
  @media screen and (min-width:426px) and (max-width:768px){
@@ -59,7 +59,7 @@ justify-content:flex-start;
 width:20%;
 height:160px;
 font-family:'Roboto';
-font-size:70px;
+font-size:95px;
 letter-spacing:2px;
 line-height:80px;
 text-align: center;
@@ -73,8 +73,13 @@ font-weight:400;
  }
 
  @media screen and (min-width:426px) and (max-width:768px){
+     bottom: 2%;
+     font-size: 40px;
+     line-height: 50px;
+ }
+ @media screen and (min-width:769px) and (max-width:1440px){
+     font-size: 60px;
      bottom: 5%;
-     font-size: 45px;
  }
 
 `;
@@ -89,9 +94,6 @@ background-size:contain;
 width: 100%;
 height: 100%;
 color:#fff;
-@media screen and (min-width:1244){
-    background-size:cover ;
-}
 `;
 
 export const HeroImage =styled.div`

@@ -27,7 +27,7 @@ const InfoHRFHome = (
                         controls
                         />
                     </ContainerVideo>
-                    <Link to="/AboutUs">
+                    <Link to="/contact">
                         <ButtomHome className="button" to="/contact">- Contactanos -</ButtomHome>
                     </Link>
                 </HomeLeft>
