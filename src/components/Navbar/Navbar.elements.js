@@ -99,7 +99,7 @@ text-align: center;
     display:flex;
     flex-direction:column;
     width:100%;
-    height:40vh;
+    height:50vh;
     position:absolute;
     top:65px;
     left: ${({click}) => (click ? 0 : '-100%')};
