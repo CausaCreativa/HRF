@@ -23,9 +23,11 @@ export const CustomersHomeElements = styled.div`
 display: flex;
 position: relative;
 width: 100%;
-height:auto ;
+height:min-content ;
 flex-direction: column;
-
+@media screen and (min-width:325px) and (max-width:700px){
+  padding-bottom: 230px;
+}
 `;
 export const HeroSvg =styled.div`
 display: flex;
@@ -45,14 +47,22 @@ width: 100%;
 flex-direction: column;
 align-items: flex-end;
 margin-top: 5%;
-
+@media screen and (min-width:325px) and (max-width:500px){
+  margin-top: 5%;
+  justify-content: center;
+}
 `;
+
 
 export const Title =styled.h1`
 font-family: 'Roboto';
 font-size: 90px;
-color: white;
+color: #f2f2f2;
 margin-right: 7%;
+@media screen and (min-width:325px) and (max-width:500px){
+  margin: auto;
+  font-size: 40px;
+}
 `;
 
 export const Subtitle = styled.h4`
@@ -62,12 +72,22 @@ font-size:40px;
 font-weight: 600;
 text-align: right;
 margin-right: 7%;
+@media screen and (min-width:325px) and (max-width:500px){
+  margin: auto;
+  margin-top: 5%;
+  font-size: 20px;
+  text-align: center;
+}
 `;
 
 export const ContianerSlider =styled.div`
+
 margin:5% 0;
 width: 100%;
 display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 
 `;
 
@@ -77,23 +97,41 @@ width: 820px;
 height: auto;
 clip-path: polygon(0 0, 100% 0, 81% 100%, 0% 100%);
 position: relative;
+image-resolution: inherit;
+object-fit: contain;
+position: relative;
+top: 50%;
+ & img{
+   width: 100%;
+   height: 100%;
+ }
+
+@media screen and (min-width:325px) and (max-width:500px){
+  display: none;
+}
+@media screen and (min-width:501px) and (max-width:900px){
+  width: 60%;
+}
+@media screen and (min-width:901px) and (max-width:10240px){
+  width: 60%;
+}
 
 `;
 export const ImageBg = styled.div`
 display: flex;
 width: 810px;
-height: 420px;
+height: auto;
 clip-path: polygon(0 0, 100% 0, 87% 100%, 0% 100%);
 position: absolute;
 background-color: white;
 z-index: -10;
-top:45%;
-
+top:50%;
 `;
 
+
 export const SliderContainer = styled.div`
-width: 75%;
-height: 290px;
+width: 100%;
+height: 250px;
 position:absolute;
 z-index: -100;
 top: 50%;
@@ -101,8 +139,11 @@ right: 0%;
 justify-content: center;
 display: flex;
 background-color: #fff;
-
 overflow: hidden;
+@media screen and (min-width:325px) and (max-width:500px){
+  height: 100px;
+}
+
 `;
 
 export const Slider = styled.div`
@@ -120,12 +161,16 @@ height: 100%;
 margin: 0px 0;
 justify-content: center;
 align-items: center;
+@media screen and (min-width:325px) and (max-width:500px){
+  width: 180%
+}
+
 `;
 
 export const LogoContainer =styled.div`
 position: relative;
 width: 400px;
-height: 100%;
+height: 200px;
 margin: 25px;
 animation: ${fadein} 0.5s cubic-bezier( 0.455, 0.03, 0.515, 0.955) forwards ;
 background-image: url(${props =>props.iconos});

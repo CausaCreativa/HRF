@@ -109,7 +109,6 @@ justify-self: center;
 
 export const ButtonMobile= styled.div`
 display: none;
-border: 1px solid red;
 width: 100%;
 height: auto;
 justify-content: center;
