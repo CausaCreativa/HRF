@@ -11,7 +11,7 @@ const FormContact = () => {
       <Title>CONTACTO</Title>
       <Panel>
         <Form>
-          <p>Si deseas contactarte con nosotros no dudes en escribirnos, estaros atentos siempre ante tus inquietudes.</p>
+          <p className="textForm">Si deseas contactarte con nosotros no dudes en escribirnos, estaros atentos siempre ante tus inquietudes.</p>
           <Input placeholder="Nombre"></Input>
           <Input  placeholder="Correo"></Input>
           <Textarea rows="10"

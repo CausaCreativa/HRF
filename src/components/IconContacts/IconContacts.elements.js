@@ -12,7 +12,7 @@ export const ContentIcon = styled.div`
         margin: 0px 20px;
     }
     @media screen and (max-width: 425px){
-        margin: 12px 20px;
+        margin: 0px 20px;
     }
 `;
 export const Icon = styled.img`
@@ -31,8 +31,8 @@ export const Icon = styled.img`
         width: 100px;
     }
     @media screen and (max-width: 425px){
-        height: 160px;
-        width: 160px;
+        height: 50px;
+        width: 50px;
     }
 `;
 export const BackgroundIcon = styled.div`
