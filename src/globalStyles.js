@@ -54,7 +54,7 @@ a{
             font-size: 2rem;
          }
          @media screen and (max-width: 425px){
-            font-size: 1.5rem ;
+            font-size: 1rem ;
          }
     }
 
@@ -116,15 +116,25 @@ a{
         }
         @media screen and (max-width: 1024px){
             height: 500px;
-            width: 800px;
+            width: 700px
         }
         @media screen and (max-width: 768px){
             height: 400px;
             width: 600px;
         }
         @media screen and (max-width: 425px){
-            height: 400px;
-            width: 600px;
+            height: 250px;
+            width: 300px;
+        }
+      }
+      .textIcon{
+        @media screen and (max-width: 425px){
+            font-size: 9px;
+        }
+      }
+      .textForm{
+        @media screen and (max-width: 425px){
+            width: 50%;
         }
       }
 `;

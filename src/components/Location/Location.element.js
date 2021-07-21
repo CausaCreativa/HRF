@@ -10,6 +10,9 @@ color: #003875;
 export const Title = styled.h1`
 margin-bottom: 0px;
 font-size: 60px;
+@media screen and (max-width: 425px){
+    font-size: 45px;
+}
 `;
 export const ContainerPanelLocation = styled.div`
 height: 212vh;
@@ -24,7 +27,7 @@ position: relative;
     height:124vh;
 }
 @media screen and (max-width: 425px){
-    height:69vh;
+    height:68vh;
 }
 `;
 export const PanelLocationBackground = styled.div`
@@ -53,7 +56,7 @@ export const IconPanel = styled.div`
         margin:0px 0px 70px;
     }
     @media screen and (max-width: 425px){
-        margin:80px 0px 273px;
+        margin:0px 0px 33px;
     }
 `;
 export const IframeContent = styled.div`

@@ -13,7 +13,7 @@ const IconContacts = (
           <BackgroundIcon>
             <Icon src={imgUrl}></Icon>
           </BackgroundIcon>
-          <p>{text}</p>
+          <p className="textIcon">{text}</p>
         </ContentIcon>
       
         </>

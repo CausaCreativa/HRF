@@ -14,7 +14,8 @@ position: relative;
     height:84vh;
 }
 @media screen and (max-width: 425px){
-    height:47vh;
+    height:46vh;
+    margin-bottom: 346px;
 }
 `;
 export const PanelFormBackground = styled.div`
@@ -42,11 +43,17 @@ justify-content: flex-start;
 display: flex;
 color: #fff;
 font-size: 40px;
+@media screen and (max-width: 425px){
+    font-size: 18px;
+}
 `;
 
 
 export const Panel = styled.div`
 width: 50%;
+@media screen and (max-width: 425px){
+    width: 100%;
+}
 `;
 
 export const Form = styled.div`
