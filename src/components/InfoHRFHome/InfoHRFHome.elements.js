@@ -9,7 +9,7 @@ export const InfoHome= styled.div`
     height: min-content;
     top:-4px;
     grid-template-columns: 1fr 1fr;
-    @media screen and  (min-width:375px) and (max-width:425px){
+    @media screen and  (min-width:320px) and (max-width:425px){
     grid-template-columns: 1fr;
     grid-template-rows:  300px;
 }
@@ -53,8 +53,8 @@ width:950px;
 height: min-content;
 justify-content: center;
 top:20%;
-@media screen and  (min-width:375px) and (max-width:425px){
-    width:350px;
+@media screen and  (min-width:320px) and (max-width:425px){
+    width:300px;
     
 }
 @media screen and  (min-width:426px) and (max-width:767px){
@@ -92,7 +92,7 @@ font-size: 1.5rem;
 color: black;
 margin-top: 70%;
 text-decoration: none   ;
-@media screen and  (min-width:325px) and (max-width:768px){
+@media screen and  (min-width:320px) and (max-width:768px){
     margin:20% 10%;
     text-align: justify;
 
@@ -113,7 +113,7 @@ width: 100%;
 height: auto;
 justify-content: center;
 margin: 35px 0;
-@media screen and (min-width:325px) and (max-width:800px){
+@media screen and (min-width:320px) and (max-width:800px){
 display: flex;
 }
 

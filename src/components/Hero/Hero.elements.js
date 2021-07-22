@@ -28,13 +28,13 @@ line-height:45px;
 color:#fff;
 font-weight:400;
 
-@media screen and (min-width:325px) and (max-width:425px){
+@media screen and (min-width:320px) and (max-width:425px){
 
     height: 80px;
-     font-size: 20px;
+     font-size: 15px;
      letter-spacing:1px;
      line-height:30px;
-    bottom: -5%;
+    bottom: -4%;
 
  }
 
@@ -65,11 +65,11 @@ line-height:80px;
 text-align: center;
 color:#fff;
 font-weight:400;
- @media screen and (min-width:325px) and (max-width:425px){
+ @media screen and (min-width:320px) and (max-width:425px){
      font-size: 30px;
      letter-spacing:1px;
      line-height:40px;
-     bottom:-10%;
+     bottom:-9%;
  }
 
  @media screen and (min-width:426px) and (max-width:768px){

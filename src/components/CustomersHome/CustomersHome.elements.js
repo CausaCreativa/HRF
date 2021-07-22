@@ -25,7 +25,7 @@ position: relative;
 width: 100%;
 height:min-content ;
 flex-direction: column;
-@media screen and (min-width:325px) and (max-width:700px){
+@media screen and (min-width:320px) and (max-width:700px){
   padding-bottom: 230px;
 }
 `;
@@ -47,7 +47,7 @@ width: 100%;
 flex-direction: column;
 align-items: flex-end;
 margin-top: 5%;
-@media screen and (min-width:325px) and (max-width:500px){
+@media screen and (min-width:320px) and (max-width:500px){
   margin-top: 5%;
   justify-content: center;
 }
@@ -59,7 +59,7 @@ font-family: 'Roboto';
 font-size: 90px;
 color: #f2f2f2;
 margin-right: 7%;
-@media screen and (min-width:325px) and (max-width:500px){
+@media screen and (min-width:320px) and (max-width:500px){
   margin: auto;
   font-size: 40px;
 }
@@ -72,7 +72,7 @@ font-size:40px;
 font-weight: 600;
 text-align: right;
 margin-right: 7%;
-@media screen and (min-width:325px) and (max-width:500px){
+@media screen and (min-width:320px) and (max-width:500px){
   margin: auto;
   margin-top: 5%;
   font-size: 20px;
@@ -86,8 +86,8 @@ margin:5% 0;
 width: 100%;
 display: flex;
 flex-direction: column;
-justify-content: center;
-align-items: center;
+justify-content: flex-start;
+align-items: flex-start;
 
 `;
 
@@ -101,19 +101,24 @@ image-resolution: inherit;
 object-fit: contain;
 position: relative;
 top: 50%;
+
+border: 1px solid red;
  & img{
    width: 100%;
    height: 100%;
  }
 
-@media screen and (min-width:325px) and (max-width:500px){
+@media screen and (min-width:320px) and (max-width:500px){
   display: none;
 }
 @media screen and (min-width:501px) and (max-width:900px){
   width: 60%;
 }
-@media screen and (min-width:901px) and (max-width:10240px){
+@media screen and (min-width:901px) and (max-width:1024px){
   width: 60%;
+}
+@media screen and (min-width:1025px) and (max-width:1440px){
+  width: 65%;
 }
 
 `;
@@ -140,7 +145,7 @@ justify-content: center;
 display: flex;
 background-color: #fff;
 overflow: hidden;
-@media screen and (min-width:325px) and (max-width:500px){
+@media screen and (min-width:320px) and (max-width:500px){
   height: 100px;
 }
 
@@ -161,7 +166,7 @@ height: 100%;
 margin: 0px 0;
 justify-content: center;
 align-items: center;
-@media screen and (min-width:325px) and (max-width:500px){
+@media screen and (min-width:320px) and (max-width:500px){
   width: 180%
 }
 

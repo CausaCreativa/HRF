@@ -42,6 +42,11 @@ align-items:center;
 text-decoration: none;
 padding:0.5rem 1rem;
 height:100%;
+@media screen and (max-width: 500px){
+    font-size: 18px;
+    padding:  0.5rem 0.5rem;
+
+}
 `;
 
 export const Copyrigth = styled.div`

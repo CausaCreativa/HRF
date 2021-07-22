@@ -15,7 +15,7 @@ export const Footer = () => {
                     </FooterItem>
                     <FooterItem>
                         <FooterLink to='/services'>
-                            Services
+                            Servicios
                         </FooterLink>
                     </FooterItem>
                     <FooterItem>

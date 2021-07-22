@@ -60,7 +60,7 @@ object-fit:cover;
 margin-top:10px;
 margin-right:10px;
 color:red;
-    @media screen and  (min-width:375px) and (max-width:425px){
+    @media screen and  (min-width:320px) and (max-width:600px){
     width:120px;
     top:40px;
 }
