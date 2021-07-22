@@ -136,8 +136,19 @@ a{
         }
       }
       .textForm{
+        font-size: 30px;
+        @media screen and (max-width: 1440px){
+            font-size: 13.3333px;
+        }
         @media screen and (max-width: 425px){
             width: 50%;
+        }
+      }
+      .inputForm{
+        font-size: 30px;
+        
+          @media screen and (max-width: 1440px){
+            font-size: 13.3333px;
         }
       }
 `;
