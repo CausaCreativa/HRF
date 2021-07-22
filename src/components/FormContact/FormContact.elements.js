@@ -8,7 +8,7 @@ position: relative;
     height:140vh;
 }
 @media screen and (max-width: 1024px){
-    height:112vh;
+    height:111vh;
 }
 @media screen and (max-width: 768px){
     height:84vh;
@@ -59,7 +59,18 @@ width: 50%;
 export const Form = styled.div`
     width: 100%;
     margin: 19px 0px;
-    padding: 12px 95px;
+    padding: 15px 163px;
+    @media screen and (max-width: 1440px){
+        margin: 19px 0px;
+        padding: 12px 95px;
+    }
+    @media screen and (max-width: 768px){
+        margin: 16px 0px;
+        padding: 2px 48px;
+    }
+    @media screen and (max-width: 425px){
+        padding: 49px 50px;
+    }
 `;
 export const Input = styled.input`
     margin: 10px 0px;

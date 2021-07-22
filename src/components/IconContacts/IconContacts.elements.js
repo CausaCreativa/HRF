@@ -16,8 +16,8 @@ export const ContentIcon = styled.div`
     }
 `;
 export const Icon = styled.img`
-    height: 160px;
-    width: 160px;
+    height: 250px;
+    width: 250px;
     @media screen and (max-width: 1440px){
         height: 160px;
         width: 160px;

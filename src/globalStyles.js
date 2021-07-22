@@ -51,7 +51,7 @@ a{
         font-weight: 100;
         color: #F2F2F2;
          @media screen and (max-width: 768px){
-            font-size: 2rem;
+            font-size: 1rem;
          }
          @media screen and (max-width: 425px){
             font-size: 1rem ;
@@ -110,6 +110,8 @@ a{
         display: none;
       }
       iframe{
+        height: 1500px;
+        width: 1500px; 
         @media screen and (max-width: 1440px){
            height: 800px;
             width: 800px; 
@@ -128,6 +130,7 @@ a{
         }
       }
       .textIcon{
+        font-size: 30px;
         @media screen and (max-width: 425px){
             font-size: 9px;
         }
