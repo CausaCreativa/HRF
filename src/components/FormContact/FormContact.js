@@ -12,9 +12,9 @@ const FormContact = () => {
       <Panel>
         <Form>
           <p className="textForm">Si deseas contactarte con nosotros no dudes en escribirnos, estaros atentos siempre ante tus inquietudes.</p>
-          <Input placeholder="Nombre"></Input>
-          <Input  placeholder="Correo"></Input>
-          <Textarea rows="10"
+          <Input className="inputForm" placeholder="Nombre"></Input>
+          <Input className="inputForm" placeholder="Correo"></Input>
+          <Textarea className="inputForm" rows="10" 
                 cols="50" placeholder="Mensaje"></Textarea>
           <Button className="button">Enviar</Button>
         </Form>
