@@ -101,8 +101,6 @@ image-resolution: inherit;
 object-fit: contain;
 position: relative;
 top: 50%;
-
-border: 1px solid red;
  & img{
    width: 100%;
    height: 100%;

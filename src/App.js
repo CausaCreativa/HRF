@@ -11,12 +11,11 @@ function App() {
   return (
     <Router>
       <GlobalStyle/>
-      {/* <MenuNetworks/> */}
       <Navbar />
       <Switch >
-      <Route path="/contact" excat component={Contact} />
-        <Route path="/HRF" exact component={Home} />
         <Route path="/" exact component={Home} />
+        <Route path="/HRF" exact component={Home} />
+        <Route path="/contact" excat component={Contact} />
         <Route path="/aboutUs" excat component={AboutUs} />
         <Route path="/services" excat component={Service} />
       </Switch>
