@@ -46,8 +46,12 @@ export const IconPanel = styled.div`
     justify-content: center;
     color:#000!important;
     text-align: center;
+    
+    @media screen and (max-width: 1900px){
+        margin: 11px 0px 167px;
+    }
     @media screen and (max-width: 1440px){
-        margin:80px 0px 171px;
+        margin: 11px 0px 245px;
     }
     @media screen and (max-width: 1024px){
         margin:13px 0px 185px;
@@ -57,6 +61,9 @@ export const IconPanel = styled.div`
     }
     @media screen and (max-width: 425px){
         margin:0px 0px 33px;
+    }
+    @media screen and (max-width: 320px){
+        margin:0px 0px 50px;
     }
 `;
 export const IframeContent = styled.div`

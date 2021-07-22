@@ -2,8 +2,11 @@
 import styled from 'styled-components'
 
 export const ContainerPanelForm = styled.div`
-height: 142vh;
+height: 138vh;
 position: relative;
+@media screen and (max-width: 1900px){
+    height:142vh;
+}
 @media screen and (max-width: 1440px){
     height:140vh;
 }
@@ -16,6 +19,14 @@ position: relative;
 @media screen and (max-width: 425px){
     height:46vh;
     margin-bottom: 346px;
+}
+@media screen and (max-width: 375px){
+    height:41vh;
+    margin-bottom: 391px;
+}
+@media screen and (max-width: 320px){
+    height:35vh;
+    margin-bottom: 454px;
 }
 `;
 export const PanelFormBackground = styled.div`
@@ -60,8 +71,10 @@ export const Form = styled.div`
     width: 100%;
     margin: 19px 0px;
     padding: 15px 163px;
+    @media screen and (max-width: 1900px){
+        padding: 15px 92px;
+    }
     @media screen and (max-width: 1440px){
-        margin: 19px 0px;
         padding: 12px 95px;
     }
     @media screen and (max-width: 768px){
