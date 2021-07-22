@@ -4,6 +4,9 @@ import styled from 'styled-components'
 export const ContainerPanelForm = styled.div`
 height: 138vh;
 position: relative;
+@media screen and (max-width: 1900px){
+    height:142vh;
+}
 @media screen and (max-width: 1440px){
     height:140vh;
 }
@@ -68,8 +71,10 @@ export const Form = styled.div`
     width: 100%;
     margin: 19px 0px;
     padding: 15px 163px;
+    @media screen and (max-width: 1900px){
+        padding: 15px 92px;
+    }
     @media screen and (max-width: 1440px){
-        margin: 19px 0px;
         padding: 12px 95px;
     }
     @media screen and (max-width: 768px){

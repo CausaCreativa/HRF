@@ -112,6 +112,10 @@ a{
       iframe{
         height: 1500px;
         width: 1500px; 
+        @media screen and (max-width: 1900px){
+            height: 1200px;
+             width: 1200px; 
+         }
         @media screen and (max-width: 1440px){
            height: 800px;
             width: 800px; 
