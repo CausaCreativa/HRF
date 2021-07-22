@@ -40,14 +40,14 @@ height: 100%;
 position: absolute;
 `;
 export const IconPanel = styled.div`
-    margin:80px 0px 273px;
+    margin:80px 0px 350px;
     width: 100%;
     display: flex;
     justify-content: center;
     color:#000!important;
     text-align: center;
     @media screen and (max-width: 1440px){
-        margin:80px 0px 273px;
+        margin:80px 0px 171px;
     }
     @media screen and (max-width: 1024px){
         margin:13px 0px 185px;
