@@ -128,6 +128,10 @@ a{
             height: 250px;
             width: 300px;
         }
+        @media screen and (max-width: 320px){
+            height: 200px;
+            width: 300px;
+        }
       }
       .textIcon{
         font-size: 30px;

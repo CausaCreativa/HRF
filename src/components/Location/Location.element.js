@@ -58,6 +58,9 @@ export const IconPanel = styled.div`
     @media screen and (max-width: 425px){
         margin:0px 0px 33px;
     }
+    @media screen and (max-width: 320px){
+        margin:0px 0px 50px;
+    }
 `;
 export const IframeContent = styled.div`
     
