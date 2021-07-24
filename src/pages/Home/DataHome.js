@@ -45,7 +45,7 @@ export const homeObjOne = {
 
 
      export  function  sizeHero(){
-        if(window.innerWidth > 1440 ) {
+        if(window.innerWidth > 1024 ) {
             return 95
         }else if(window.innerWidth < 800){
             return 55}
