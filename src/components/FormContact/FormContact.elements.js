@@ -17,15 +17,15 @@ position: relative;
     height:84vh;
 }
 @media screen and (max-width: 425px){
-    height:46vh;
+    height:35vh;
     margin-bottom: 346px;
 }
 @media screen and (max-width: 375px){
-    height:41vh;
+    height:29vh;
     margin-bottom: 391px;
 }
 @media screen and (max-width: 320px){
-    height:35vh;
+    height:27vh;
     margin-bottom: 454px;
 }
 `;

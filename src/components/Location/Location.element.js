@@ -29,6 +29,9 @@ position: relative;
 @media screen and (max-width: 425px){
     height:68vh;
 }
+@media screen and (max-width: 320px){
+    height:68vh;
+}
 `;
 export const PanelLocationBackground = styled.div`
 background-image:url(${ props => props.Background});
@@ -63,7 +66,7 @@ export const IconPanel = styled.div`
         margin:0px 0px 33px;
     }
     @media screen and (max-width: 320px){
-        margin:0px 0px 50px;
+        margin:0px 0px 115px;
     }
 `;
 export const IframeContent = styled.div`
