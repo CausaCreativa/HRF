@@ -66,18 +66,21 @@ line-height:80px;
 text-align: center;
 color:#fff;
 font-weight:400;
-@media screen and (min-width:320px) and (max-width:354px){
+@media screen and (min-width:320px) and (max-width:399px){
      font-size: 18px;
      letter-spacing:0.5px;
      line-height:30px;
      bottom:-18%;
+     border: 1px solid red;
  }
- @media screen and (min-width:355px) and (max-width:425px){
+ @media screen and (min-width:400px) and (max-width:425px){
      font-size: 26px;
      letter-spacing:1px;
      line-height:35px;
      bottom:-14%;
      margin-left:6%;
+     
+     border: 1px solid blue ;
  }
 
  @media screen and (min-width:426px) and (max-width:768px){
