@@ -50,4 +50,6 @@ export const homeObjOne = {
         }else if(window.innerWidth < 800){
             return 55}
 
+            return 60
+
     }
