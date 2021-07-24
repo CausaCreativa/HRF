@@ -47,10 +47,11 @@ width: 100%;
 flex-direction: column;
 align-items: flex-end;
 margin-top: 5%;
-@media screen and (min-width:320px) and (max-width:500px){
-  margin-top: 5%;
+@media screen and (min-width:320px) and (max-width:425px){
+  margin-top: 10%;
   justify-content: center;
 }
+
 `;
 
 
