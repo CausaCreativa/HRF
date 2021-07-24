@@ -27,8 +27,17 @@ letter-spacing:2px;
 line-height:45px;
 color:#fff;
 font-weight:400;
+@media screen and (min-width:320px) and (max-width:350px){
 
-@media screen and (min-width:320px) and (max-width:425px){
+height: 75px;
+ font-size: 14px;
+ letter-spacing:1px;
+ line-height:28px;
+ bottom: -10%;
+ margin-left: 0;
+}
+
+@media screen and (min-width:351px) and (max-width:425px){
 
     height: 80px;
      font-size: 15px;
@@ -65,7 +74,13 @@ line-height:80px;
 text-align: center;
 color:#fff;
 font-weight:400;
- @media screen and (min-width:320px) and (max-width:425px){
+@media screen and (min-width:320px) and (max-width:350px){
+     font-size: 18px;
+     letter-spacing:0.5px;
+     line-height:30px;
+     bottom:-18%;
+ }
+ @media screen and (min-width:350px) and (max-width:425px){
      font-size: 30px;
      letter-spacing:1px;
      line-height:40px;
