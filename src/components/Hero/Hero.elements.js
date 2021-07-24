@@ -66,13 +66,13 @@ line-height:80px;
 text-align: center;
 color:#fff;
 font-weight:400;
-@media screen and (min-width:320px) and (max-width:425px){
+@media screen and (min-width:320px) and (max-width:354px){
      font-size: 18px;
      letter-spacing:0.5px;
      line-height:30px;
      bottom:-18%;
  }
- @media screen and (min-width:350px) and (max-width:425px){
+ @media screen and (min-width:355px) and (max-width:425px){
      font-size: 26px;
      letter-spacing:1px;
      line-height:35px;
