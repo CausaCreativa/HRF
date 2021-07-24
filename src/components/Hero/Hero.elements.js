@@ -71,6 +71,7 @@ font-weight:400;
      letter-spacing:0.5px;
      line-height:30px;
      bottom:-18%;
+     border: 1px solid red;
  }
  @media screen and (min-width:400px) and (max-width:425px){
      font-size: 26px;
@@ -78,6 +79,8 @@ font-weight:400;
      line-height:35px;
      bottom:-14%;
      margin-left:6%;
+     
+     border: 1px solid blue ;
  }
 
  @media screen and (min-width:426px) and (max-width:768px){
