@@ -139,6 +139,9 @@ a{
       }
       .textIcon{
         font-size: 30px;
+        @media screen and (max-width: 768px){
+            font-size: 12px;
+        }
         @media screen and (max-width: 425px){
             font-size: 9px;
         }
