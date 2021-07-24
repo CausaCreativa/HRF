@@ -77,7 +77,7 @@ font-weight:400;
      letter-spacing:1px;
      line-height:35px;
      bottom:-14%;
-     margin-left:5%;
+     margin-left:6%;
  }
 
  @media screen and (min-width:426px) and (max-width:768px){
