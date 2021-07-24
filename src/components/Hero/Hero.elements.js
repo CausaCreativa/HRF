@@ -73,7 +73,7 @@ font-weight:400;
      bottom:-18%;
  }
  @media screen and (min-width:350px) and (max-width:425px){
-     font-size: 28px;
+     font-size: 26px;
      letter-spacing:1px;
      line-height:35px;
      bottom:-14%;
