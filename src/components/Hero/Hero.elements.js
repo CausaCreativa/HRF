@@ -79,8 +79,7 @@ font-weight:400;
      line-height:35px;
      bottom:-14%;
      margin-left:6%;
-     
-     border: 1px solid blue ;
+     border: 1px solid blue;
  }
 
  @media screen and (min-width:426px) and (max-width:768px){
