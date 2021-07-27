@@ -6,7 +6,7 @@ export const heroContact = {
     banner: '',
     vector: require('../../utils/images/svg_contact_1.svg').default,
     title: '',
-    viewHeight:72
+    viewHeight:sizeHero()
 };
 
 export const formContact = {
@@ -31,3 +31,11 @@ export const BackgroundService2 = {
 export const BackgroundService3 = {
     Background:require('../../utils/images/svg_contact_3.svg').default
 };
+
+export  function  sizeHero(){
+    if(window.innerWidth > 1024 ) {
+        return 95
+    }else if(window.innerWidth < 800){
+        return 55}
+        return 60
+}

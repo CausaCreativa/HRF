@@ -2,9 +2,10 @@
 import styled from 'styled-components'
 
 export const ContainerPanelForm = styled.div`
-height: 209vh;
+width: 100%;
+height: min-content;
 position: relative;
-@media screen and (max-width: 2350px){
+/* @media screen and (max-width: 2350px){
     height:192vh;
 }
 @media screen and (max-width: 2150px){
@@ -69,16 +70,15 @@ position: relative;
 @media screen and (max-width: 294px){
     height:23vh;
     margin-bottom: 454px;
-}
+} */
 `;
 export const PanelFormBackground = styled.div`
 background-image:url(${ props => props.Background});
-background-position: center;
+background-position: top;
 background-repeat: no-repeat;
-background-size: 100% 100%;
-width: 100%;
-height: 100%;
-position: absolute;
+background-size: contain;
+object-fit: contain;
+height: min-content;
 `;
 
 export const PanelCont = styled.div`

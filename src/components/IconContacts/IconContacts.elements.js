@@ -2,6 +2,12 @@ import styled from 'styled-components'
 
 export const ContentIcon = styled.div`
     margin: 12px 20px;
+    border: 1px solid red;
+    width: min-content;
+    height: 100%;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
     @media screen and (max-width: 1440px){
         margin: 12px 20px;
     }

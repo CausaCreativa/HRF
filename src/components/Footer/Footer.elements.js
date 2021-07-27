@@ -6,13 +6,16 @@ import logoFooter from '../../utils/images/LogoFooter.svg'
 
 export const FooterContainer = styled.footer`
 background-color:#000;
-opacity: 90%;
+opacity: 95%;
 width: 100%;
 display: flex;
 flex-direction:column;
 align-items: center;
 font-weight:1.2rem;
 padding-bottom:20px;
+@media screen and (max-width: 500px){
+
+
 `;
 
 export const FooterMenu = styled.ul`
@@ -56,6 +59,8 @@ text-align: center;
 width: auto;
 height: auto;
 color: white;
+@media screen and (max-width: 500px){
+   font-size: 1rem;
 `;
 
 export const ContainerLogo =styled.div`
@@ -64,7 +69,9 @@ display: flex;
 justify-content: center;
 align-items: center;
 height: 80px;
-
+@media screen and (max-width: 500px){
+    height: 50px;
+}
 `;
 
 export const LogoFooter = styled.div`
@@ -76,5 +83,9 @@ background-image:url(${logoFooter});
 background-position: center;
 background-repeat: no-repeat;
 background-size: contain;
-
+@media screen and (max-width: 500px){
+    width: 100px;
+    height: 100px;
+    bottom: 25px;
+}
 `;
