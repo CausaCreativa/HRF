@@ -2,30 +2,72 @@
 import styled from 'styled-components'
 
 export const ContainerPanelForm = styled.div`
-height: 138vh;
+height: 209vh;
 position: relative;
+@media screen and (max-width: 2350px){
+    height:192vh;
+}
+@media screen and (max-width: 2150px){
+    height:176vh;
+}
+@media screen and (max-width: 1950px){
+    height:159vh;
+}
 @media screen and (max-width: 1900px){
+    height:155vh;
+}
+@media screen and (max-width: 1741px){
     height:142vh;
 }
+@media screen and (max-width: 1600px){
+    height:131vh;
+}
 @media screen and (max-width: 1440px){
-    height:140vh;
+    height:118vh;
 }
-@media screen and (max-width: 1024px){
-    height:111vh;
+@media screen and (max-width: 1300px){
+    height:106vh;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1150px){
+    height:94vh;
+}
+@media screen and (max-width: 1050px){
     height:84vh;
 }
-@media screen and (max-width: 425px){
-    height:46vh;
+@media screen and (max-width: 768px){
+    height:63vh;
+}
+@media screen and (max-width: 650px){
+    height:52vh;
+}
+@media screen and (max-width: 600px){
+    height:49vh;
+}
+@media screen and (max-width: 550px){
+    height:43vh;
+}
+@media screen and (max-width: 480px){
+    height:37vh;
     margin-bottom: 346px;
 }
+@media screen and (max-width: 425px){
+    height:35vh;
+    margin-bottom: 346px;
+}
+@media screen and (max-width: 399px){
+    height:32vh;
+    margin-bottom: 391px;
+}
 @media screen and (max-width: 375px){
-    height:41vh;
+    height:29vh;
     margin-bottom: 391px;
 }
 @media screen and (max-width: 320px){
-    height:35vh;
+    height:27vh;
+    margin-bottom: 454px;
+}
+@media screen and (max-width: 294px){
+    height:23vh;
     margin-bottom: 454px;
 }
 `;
@@ -54,8 +96,14 @@ justify-content: flex-start;
 display: flex;
 color: #fff;
 font-size: 40px;
+@media screen and (max-width: 650px){
+    font-size: 23px;
+}
 @media screen and (max-width: 425px){
     font-size: 18px;
+}
+@media screen and (max-width: 294px){
+    font-size: 15px;
 }
 `;
 
