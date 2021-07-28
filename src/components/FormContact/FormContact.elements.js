@@ -100,7 +100,8 @@ font-size: 40px;
     font-size: 23px;
 }
 @media screen and (max-width: 425px){
-    font-size: 18px;
+    margin-top: -1%;
+    font-size: 20px;
 }
 @media screen and (max-width: 294px){
     font-size: 15px;
@@ -130,7 +131,7 @@ export const Form = styled.div`
         padding: 2px 48px;
     }
     @media screen and (max-width: 425px){
-        padding: 49px 50px;
+        padding: 0px 50px;
     }
 `;
 export const Input = styled.input`

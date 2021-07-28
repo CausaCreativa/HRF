@@ -13,10 +13,7 @@ flex-direction:column;
 align-items: center;
 font-weight:1.2rem;
 padding-bottom:20px;
-@media screen and (max-width: 500px){
-
-
-`;
+`
 
 export const FooterMenu = styled.ul`
 width:80%;
@@ -61,6 +58,7 @@ height: auto;
 color: white;
 @media screen and (max-width: 500px){
    font-size: 1rem;
+}
 `;
 
 export const ContainerLogo =styled.div`
@@ -84,8 +82,8 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: contain;
 @media screen and (max-width: 500px){
-    width: 100px;
-    height: 100px;
-    bottom: 25px;
+    width: 90px;
+    height: 90px;
+    bottom: 0px;
 }
 `;

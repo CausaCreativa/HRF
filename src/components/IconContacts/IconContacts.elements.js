@@ -8,6 +8,8 @@ export const ContentIcon = styled.div`
     display: flex;
     justify-self: center;
     flex-direction: column;
+    font-family: 'Hind';
+    font-size: 50px;
     @media screen and (max-width: 1440px){
         margin: 12px 20px;
     }
@@ -18,7 +20,7 @@ export const ContentIcon = styled.div`
         margin: 0px 20px;
     }
     @media screen and (max-width: 425px){
-        margin: 0px 20px;
+        margin: 0px 5px;
     }
 `;
 export const Icon = styled.img`

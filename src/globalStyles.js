@@ -143,7 +143,7 @@ a{
             font-size: 12px;
         }
         @media screen and (max-width: 425px){
-            font-size: 9px;
+            font-size: 15px;
         }
       }
       .textForm{

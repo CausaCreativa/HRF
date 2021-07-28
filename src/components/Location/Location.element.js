@@ -1,11 +1,15 @@
 import styled from 'styled-components'
 
 export const PanelTitle = styled.div`
-margin: 15% 8%;
+margin: 9% 8%;
 display: flex;
 justify-content: flex-end;
 align-items: center;
 color: #003875;
+@media screen and (max-width: 500px){
+    margin: 2% 5%;
+    height: 100px;
+}
 `;
 
 export const Title = styled.h1`
@@ -33,11 +37,13 @@ export const IconPanel = styled.div`
     height: min-content;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
     align-self: center;
     text-align: center;
-    border: 1px solid red;
-    margin: 0 0 12% 0;
-
+    border: 1px solid blue;
+    margin: 0 0 15% 0;
+    @media screen and (max-width: 500px){
+}
 `;
 export const IframeContent = styled.div`
     width: 100%;

@@ -13,8 +13,8 @@ const Location = () => {
       
       <PanelLocationBackground {...BackgroundService3}>
       <IconPanel>
-        <IconContacts {...IconCarta}></IconContacts>
         <IconContacts {...IconElectronic}></IconContacts>
+        <IconContacts {...IconCarta}></IconContacts>
         <IconContacts {...IconUbicacion}></IconContacts>
       </IconPanel>
       <IframeContent>
