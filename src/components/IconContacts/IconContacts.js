@@ -8,10 +8,10 @@ const IconContacts = (
 ) => {
     return (
         <>
-           
+        
         <ContentIcon>
           <BackgroundIcon>
-            <Icon src={imgUrl}></Icon>
+            <Icon src={imgUrl}/>
           </BackgroundIcon>
           <p className="textIcon">{text}</p>
         </ContentIcon>

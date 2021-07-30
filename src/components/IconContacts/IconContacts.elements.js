@@ -2,8 +2,8 @@ import styled from 'styled-components'
 
 export const ContentIcon = styled.div`
     margin: 12px 20px;
-    border: 1px solid red;
-    width: min-content;
+    border: 1px solid yellow;
+    width: 100%;
     height: 100%;
     display: flex;
     justify-self: center;
